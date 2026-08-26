@@ -1,0 +1,26 @@
+ECOSTAT ENGLISH LAB — V2
+
+Preserved:
+- 497 vocabulary entries
+- Dictionary and all pathway/source/category filters
+- UK English speech synthesis
+- Flashcards, favourites and mastered words
+- Practice modes and quiz statistics
+- Interview Lab and 90-second timer
+- Progress export/import/reset
+- Accessibility settings
+- PWA installation and offline mode
+- Local-only student progress
+- Footer credit
+
+V2 changes:
+- More compact sticky header
+- One clear installation control instead of duplicate Install app buttons
+- Shorter, more balanced homepage hero
+- Quick-start panel for vocabulary, quiz and interview practice
+- Daily Word Spotlight drawn from the course vocabulary
+- Direct EQUADE / DSI / IRF / GRAF pathway shortcuts
+- More useful homepage statistics (saved words instead of a static pathway count)
+- Cleaner training-mode cards
+- Improved mobile layout and navigation spacing
+- Service worker cache updated to V2

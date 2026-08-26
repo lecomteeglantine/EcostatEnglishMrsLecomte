@@ -1,7 +1,12 @@
-ECOSTAT ENGLISH LAB — GitHub Pages
+ECOSTAT ENGLISH LAB — V2 — GitHub Pages
 
-Upload every file and the icons folder to the ROOT of your GitHub repository.
-Then: Settings > Pages > Deploy from a branch > main > /(root) > Save.
+Replace the files in the ROOT of your GitHub repository with the files from this ZIP.
+Keep the icons folder as a folder.
+
+GitHub Pages remains configured as:
+Settings > Pages > Deploy from a branch > main > /(root)
 
 Important: keep manifest.webmanifest, sw.js, data.js, app.js and styles.css next to index.html.
 The install/offline mode needs HTTPS; GitHub Pages provides it automatically.
+
+If the old design appears briefly after deployment, refresh once or close/reopen the installed app so the V2 service worker can take over.
