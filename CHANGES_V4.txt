@@ -1,0 +1,50 @@
+ECOSTAT ENGLISH LAB — V4 CONTENT REVIEW
+
+Scope
+- Reviewed all 497 existing vocabulary entries.
+- Kept the dictionary at 497 entries: this release prioritises accuracy over volume.
+- 350+ pronunciation transcriptions corrected or normalised towards broad British English.
+- 30+ definition / French translation / terminology refinements.
+- 44 interview questions preserved unchanged.
+- PWA cache bumped to v4.0.0 so students receive the corrected data.
+
+High-priority linguistic fixes include
+- curriculum vitae (CV)
+- résumé
+- professional summary
+- impact (noun stress)
+- to sow
+- to steer
+- to elaborate
+- mortgage
+- actuarially fair
+- behavioural finance
+- econometrics terminology
+- clustering / model-based clustering / fuzzy clustering
+- Bayesian network
+- neural network
+- accuracy / precision / recall
+- Hadoop / Apache Spark
+- firewall / forensic analysis / encryption
+- Black-Scholes model
+- volatility
+- actuary / actuarial science
+- underwriting / underwriter
+- coverage
+- reinsurance
+- annuity
+- survey sampling
+- workplace and hybrid-work vocabulary
+
+Terminology/content refinements
+- "return on salary" replaced with the standard "hiring ROI".
+- "reverse-chronological" clarified as "reverse chronological order".
+- Recruitment "referral" translated more naturally as cooptation / recommandation.
+- Insurance "claim", "policyholder", "severity", treaty reinsurance and excess-of-loss wording refined.
+- Selection bias definition broadened beyond sample-only selection.
+- Difference-in-differences French label clarified.
+- Accuracy, precision and recall definitions made explicitly classification-specific.
+- Unemployment definition aligned with the standard labour-market concept of being without work, available and actively seeking work.
+- British-English wording retained across the site.
+
+No new vocabulary has been added in V4. Expansion should come only after the existing 497-entry core is reliable.

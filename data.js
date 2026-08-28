@@ -9,7 +9,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 1,
-    "ipa": "/ˈeləvˌeɪtə pˈɪtʃ/",
+    "ipa": "/ˈelɪveɪtə pɪtʃ/",
     "visual": "🧑‍💼"
   },
   {
@@ -35,7 +35,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 3,
-    "ipa": "/mˈɑːrkət jəsˈelf/",
+    "ipa": "/ˈmɑːkɪt jɔːˈself/",
     "visual": "🧑‍💼"
   },
   {
@@ -48,7 +48,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 4,
-    "ipa": "/hˈaɪ lˈevəl vjˈuː/",
+    "ipa": "/ˈhaɪ ˈlevəl ˈvjuː/",
     "visual": "💬"
   },
   {
@@ -61,7 +61,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 5,
-    "ipa": "/trænsfˈɜːəbəl skˈɪlz/",
+    "ipa": "/trænsˈfɜːrəbəl skɪlz/",
     "visual": "🧑‍💼"
   },
   {
@@ -74,7 +74,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 6,
-    "ipa": "/kˈɔːl tˈuː ˈækʃən/",
+    "ipa": "/ˌkɔːl tə ˈækʃən/",
     "visual": "💬"
   },
   {
@@ -87,7 +87,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 7,
-    "ipa": "/tˈeɪlə/",
+    "ipa": "/ˈteɪlə/",
     "visual": "🧑‍💼"
   },
   {
@@ -113,7 +113,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 9,
-    "ipa": "/dʒˈɑːrɡən/",
+    "ipa": "/ˈdʒɑːɡən/",
     "visual": "💬"
   },
   {
@@ -126,12 +126,12 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 10,
-    "ipa": "/kˈʌm əkrˈɔːs ˈæz/",
+    "ipa": "/kʌm əˈkrɒs æz/",
     "visual": "💬"
   },
   {
     "term": "personal brand",
-    "fr": "image professionnelle personnelle",
+    "fr": "marque personnelle, image professionnelle",
     "definition": "The professional image and reputation you deliberately build around your skills and values.",
     "category": "Recruitment",
     "pathways": [
@@ -139,7 +139,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 11,
-    "ipa": "/pˈɜːsɪnəl brˈænd/",
+    "ipa": "/ˌpɜːsənəl ˈbrænd/",
     "visual": "🧑‍💼"
   },
   {
@@ -152,7 +152,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 12,
-    "ipa": "/krˌedəbˈɪlɪtiː/",
+    "ipa": "/ˌkredəˈbɪləti/",
     "visual": "💬"
   },
   {
@@ -165,7 +165,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 13,
-    "ipa": "/stˈænd ˈaʊt/",
+    "ipa": "/stænd ˈaʊt/",
     "visual": "🧑‍💼"
   },
   {
@@ -178,7 +178,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 14,
-    "ipa": "/kˈeɪdəns/",
+    "ipa": "/ˈkeɪdəns/",
     "visual": "💬"
   },
   {
@@ -191,7 +191,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 15,
-    "ipa": "/ɡrˈaʊndɪd ɪn/",
+    "ipa": "/ˈɡraʊndɪd ɪn/",
     "visual": "💬"
   },
   {
@@ -217,7 +217,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 17,
-    "ipa": "/pəzˈɪʃən jəsˈelf/",
+    "ipa": "/pəˈzɪʃən jɔːˈself/",
     "visual": "🧑‍💼"
   },
   {
@@ -230,20 +230,20 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 18,
-    "ipa": "/kəˈɪkjələm vˈaɪtə/ · CV /ˌsiː ˈviː/",
+    "ipa": "/kəˌrɪkjələm ˈviːtaɪ/ · CV /ˌsiː ˈviː/",
     "visual": "📄"
   },
   {
     "term": "résumé",
     "fr": "CV au format américain",
-    "definition": "A concise US-style document summarising your professional background, often in one page.",
+    "definition": "A concise US-style document summarising your professional background, usually one or two pages long.",
     "category": "Recruitment",
     "pathways": [
       "COMMON"
     ],
     "source": "Course 2026",
     "id": 19,
-    "ipa": "/ˈɑːr sˈʌm/",
+    "ipa": "/ˈrezjʊmeɪ/",
     "visual": "📄"
   },
   {
@@ -256,20 +256,20 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 20,
-    "ipa": "/ˈæplɪkənt trˈækɪŋ sˈɪstəm/ · ATS /ˌeɪ tiː ˈes/",
+    "ipa": "/ˈæplɪkənt ˌtrækɪŋ ˈsɪstəm/ · ATS /ˌeɪ tiː ˈes/",
     "visual": "🧑‍💼"
   },
   {
-    "term": "reverse-chronological",
+    "term": "reverse chronological order",
     "fr": "antéchronologique",
-    "definition": "Ordered from the most recent experience to the oldest.",
+    "definition": "An ordering that starts with the most recent experience or event and moves backwards in time.",
     "category": "Recruitment",
     "pathways": [
       "COMMON"
     ],
     "source": "Course 2026",
     "id": 21,
-    "ipa": "/rɪvˈɜːs krˌɑːnəlˈɑːdʒɪkəl/",
+    "ipa": "/rɪˌvɜːs krɒnəˌlɒdʒɪkəl ˈɔːdə/",
     "visual": "🧑‍💼"
   },
   {
@@ -282,7 +282,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 22,
-    "ipa": "/kˈiːwˌɜːdz/",
+    "ipa": "/ˈkiːwˌɜːdz/",
     "visual": "🧑‍💼"
   },
   {
@@ -295,7 +295,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 23,
-    "ipa": "/prəfˈeʃənəl sˈʌməiː/",
+    "ipa": "/prəˌfeʃənəl ˈsʌməri/",
     "visual": "🧑‍💼"
   },
   {
@@ -308,7 +308,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 24,
-    "ipa": "/bˈʊlət pˈɔɪnts/",
+    "ipa": "/ˈbʊlət ˈpɔɪnts/",
     "visual": "💬"
   },
   {
@@ -321,7 +321,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 25,
-    "ipa": "/rˌiːdəbˈɪlɪtiː/",
+    "ipa": "/ˌriːdəbˈɪlɪtiː/",
     "visual": "💬"
   },
   {
@@ -334,7 +334,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 26,
-    "ipa": "/prˈuːfrˌiːd/",
+    "ipa": "/ˈpruːfrˌiːd/",
     "visual": "💬"
   },
   {
@@ -347,7 +347,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 27,
-    "ipa": "/skˈɪm/",
+    "ipa": "/ˈskɪm/",
     "visual": "💬"
   },
   {
@@ -360,7 +360,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 28,
-    "ipa": "/kwˈɑːntɪfˌaɪ/",
+    "ipa": "/ˈkwɒntɪfaɪ/",
     "visual": "💬"
   },
   {
@@ -373,7 +373,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 29,
-    "ipa": "/ˌɪmpˈækt/",
+    "ipa": "/ˈɪmpækt/",
     "visual": "💬"
   },
   {
@@ -386,7 +386,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 30,
-    "ipa": "/rˈeləvənt/",
+    "ipa": "/ˈreləvənt/",
     "visual": "💬"
   },
   {
@@ -399,7 +399,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 31,
-    "ipa": "/klˈʌtəd/",
+    "ipa": "/ˈklʌtəd/",
     "visual": "💬"
   },
   {
@@ -425,7 +425,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 33,
-    "ipa": "/frˈeɪmwˌɜːk/",
+    "ipa": "/ˈfreɪmwɜːk/",
     "visual": "💬"
   },
   {
@@ -438,7 +438,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 34,
-    "ipa": "/hˈedlˌaɪn/",
+    "ipa": "/ˈhedlˌaɪn/",
     "visual": "🧑‍💼"
   },
   {
@@ -451,7 +451,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 35,
-    "ipa": "/kˈætʃˌiː ˌɪntrədˈʌkʃən/",
+    "ipa": "/ˌkætʃi ˌɪntrəˈdʌkʃən/",
     "visual": "🧑‍💼"
   },
   {
@@ -464,7 +464,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 36,
-    "ipa": "/spˈɑːrk ˈɪntrəst/",
+    "ipa": "/spɑːk ˈɪntrəst/",
     "visual": "💬"
   },
   {
@@ -477,7 +477,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 37,
-    "ipa": "/ðə səlˈuːʃən tˈuː ðə prˈɑːbləm/",
+    "ipa": "/ðə səˌluːʃən tə ðə ˈprɒbləm/",
     "visual": "🧑‍💼"
   },
   {
@@ -495,8 +495,8 @@ window.ECOSTAT_VOCAB = [
   },
   {
     "term": "referral",
-    "fr": "recommandation interne",
-    "definition": "A recommendation from someone, especially a person inside an organisation.",
+    "fr": "cooptation, recommandation",
+    "definition": "A recommendation of a candidate by someone in a professional network, often an employee of the organisation.",
     "category": "Recruitment",
     "pathways": [
       "COMMON"
@@ -542,7 +542,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 42,
-    "ipa": "/rˈefəəns/",
+    "ipa": "/ˈrefərəns/",
     "visual": "💬"
   },
   {
@@ -581,7 +581,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 45,
-    "ipa": "/ɪnθˈuːziːˌæzəm/",
+    "ipa": "/ɪnˈθjuːziæzəm/",
     "visual": "🧑‍💼"
   },
   {
@@ -594,7 +594,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 46,
-    "ipa": "/əlˈaɪn wˈɪð/",
+    "ipa": "/əˈlaɪn wɪð/",
     "visual": "💬"
   },
   {
@@ -607,7 +607,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 47,
-    "ipa": "/bɪˈheɪvjərəl kwˈestʃən/",
+    "ipa": "/bɪˌheɪvjərəl ˈkwestʃən/",
     "visual": "🧑‍💼"
   },
   {
@@ -620,7 +620,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 48,
-    "ipa": "/stˈɑːr mˈeθəd/",
+    "ipa": "/ˌstɑː ˈmeθəd/",
     "visual": "🧑‍💼"
   },
   {
@@ -633,7 +633,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 49,
-    "ipa": "/sˌɪtʃuːˈeɪʃən/",
+    "ipa": "/ˌsɪtʃuːˈeɪʃən/",
     "visual": "🧑‍💼"
   },
   {
@@ -646,7 +646,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 50,
-    "ipa": "/tˈæsk/",
+    "ipa": "/ˈtæsk/",
     "visual": "🧑‍💼"
   },
   {
@@ -698,7 +698,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 54,
-    "ipa": "/ʃˈəʊkˌeɪs/",
+    "ipa": "/ˈʃəʊkˌeɪs/",
     "visual": "🧑‍💼"
   },
   {
@@ -711,7 +711,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 55,
-    "ipa": "/kənkrˈiːt ɪɡzˈæmpəl/",
+    "ipa": "/ˌkɒŋkriːt ɪɡˈzɑːmpəl/",
     "visual": "💬"
   },
   {
@@ -737,7 +737,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 57,
-    "ipa": "/kˈɑːntekst/",
+    "ipa": "/ˈkɒntekst/",
     "visual": "💬"
   },
   {
@@ -763,7 +763,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 59,
-    "ipa": "/rˈæmblɪŋ/",
+    "ipa": "/ˈræmblɪŋ/",
     "visual": "💬"
   },
   {
@@ -776,7 +776,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 60,
-    "ipa": "/krˈedəbəl/",
+    "ipa": "/ˈkredəbəl/",
     "visual": "💬"
   },
   {
@@ -789,7 +789,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 61,
-    "ipa": "/dʒˈɑːb ˈɔːfə/",
+    "ipa": "/ˌdʒɒb ˈɒfə/",
     "visual": "🧑‍💼"
   },
   {
@@ -815,7 +815,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 63,
-    "ipa": "/mˈɑːrkət rˈeɪt/",
+    "ipa": "/ˌmɑːkɪt ˈreɪt/",
     "visual": "🧑‍💼"
   },
   {
@@ -828,7 +828,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 64,
-    "ipa": "/kˈaʊntəˌɔːfə/",
+    "ipa": "/ˈkaʊntəˌɔːfə/",
     "visual": "🧑‍💼"
   },
   {
@@ -841,20 +841,20 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 65,
-    "ipa": "/lˈevəɪdʒ/",
+    "ipa": "/ˈliːvərɪdʒ/",
     "visual": "🧑‍💼"
   },
   {
     "term": "benefits package",
     "fr": "avantages sociaux",
-    "definition": "Non-salary rewards such as holiday, bonuses, pension, insurance or remote work.",
+    "definition": "Non-salary rewards such as annual leave, bonuses, pension contributions, insurance or remote-working arrangements.",
     "category": "Recruitment",
     "pathways": [
       "COMMON"
     ],
     "source": "Course 2026",
     "id": 66,
-    "ipa": "/bˈenəfɪts pˈækədʒ/",
+    "ipa": "/ˈbenɪfɪts ˌpækɪdʒ/",
     "visual": "🧑‍💼"
   },
   {
@@ -867,7 +867,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 67,
-    "ipa": "/dˈiːl brˈeɪkə/",
+    "ipa": "/ˈdiːl ˈbreɪkə/",
     "visual": "🧑‍💼"
   },
   {
@@ -880,7 +880,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 68,
-    "ipa": "/tˈɔːkɪŋ pˈɔɪnts/",
+    "ipa": "/ˈtɔːkɪŋ ˈpɔɪnts/",
     "visual": "💬"
   },
   {
@@ -893,7 +893,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 69,
-    "ipa": "/wˈɔːk əwˈeɪ/",
+    "ipa": "/wɔːk əˈweɪ/",
     "visual": "🧑‍💼"
   },
   {
@@ -906,7 +906,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 70,
-    "ipa": "/tˈɑːrɡət sˈæləiː/",
+    "ipa": "/ˌtɑːɡɪt ˈsæləri/",
     "visual": "💷"
   },
   {
@@ -919,7 +919,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 71,
-    "ipa": "/kˌɑːmpənsˈeɪʃən/",
+    "ipa": "/ˌkɒmpənˈseɪʃən/",
     "visual": "🧑‍💼"
   },
   {
@@ -932,7 +932,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 72,
-    "ipa": "/dʒˈʌstəfˌaɪ/",
+    "ipa": "/ˈdʒʌstəfˌaɪ/",
     "visual": "💬"
   },
   {
@@ -945,7 +945,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 73,
-    "ipa": "/flˌeksəbˈɪlətiː/",
+    "ipa": "/ˌfleksəbˈɪlətiː/",
     "visual": "💬"
   },
   {
@@ -958,7 +958,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 74,
-    "ipa": "/ɡrˈætətˌuːd/",
+    "ipa": "/ˈɡrætɪtjuːd/",
     "visual": "💬"
   },
   {
@@ -984,7 +984,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 76,
-    "ipa": "/rˈiːzənəbəl/",
+    "ipa": "/ˈriːzənəbəl/",
     "visual": "💬"
   },
   {
@@ -997,7 +997,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 77,
-    "ipa": "/tˈæktfəl/",
+    "ipa": "/ˈtæktfəl/",
     "visual": "💬"
   },
   {
@@ -1029,7 +1029,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 79,
-    "ipa": "/sˈɪmpəl rˈiːfleks ˈeɪdʒənt/",
+    "ipa": "/ˌsɪmpəl ˌriːfleks ˈeɪdʒənt/",
     "visual": "🤖"
   },
   {
@@ -1045,7 +1045,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 80,
-    "ipa": "/mˈɑːdəl bˈeɪst ˈeɪdʒənt/",
+    "ipa": "/ˌmɒdəl beɪst ˈeɪdʒənt/",
     "visual": "🤖"
   },
   {
@@ -1061,7 +1061,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 81,
-    "ipa": "/ɡˈəʊl bˈeɪst ˈeɪdʒənt/",
+    "ipa": "/ˌɡəʊl beɪst ˈeɪdʒənt/",
     "visual": "🤖"
   },
   {
@@ -1077,7 +1077,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 82,
-    "ipa": "/juːtˈɪlətiː bˈeɪst ˈeɪdʒənt/",
+    "ipa": "/juːˌtɪləti beɪst ˈeɪdʒənt/",
     "visual": "🤖"
   },
   {
@@ -1093,7 +1093,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 83,
-    "ipa": "/lˈɜːnɪŋ ˈeɪdʒənt/",
+    "ipa": "/ˌlɜːnɪŋ ˈeɪdʒənt/",
     "visual": "🤖"
   },
   {
@@ -1141,7 +1141,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 86,
-    "ipa": "/kəndˈɪʃən ˈækʃən rˈuːl/",
+    "ipa": "/kənˌdɪʃən ˈækʃən ruːl/",
     "visual": "🤖"
   },
   {
@@ -1157,7 +1157,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 87,
-    "ipa": "/ɔːtˈɑːnəmiː/",
+    "ipa": "/ɔːˈtɒnəmi/",
     "visual": "🤖"
   },
   {
@@ -1172,7 +1172,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 88,
-    "ipa": "/bˈʌbəl/",
+    "ipa": "/ˈbʌbəl/",
     "visual": "🫧"
   },
   {
@@ -1227,7 +1227,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 92,
-    "ipa": "/hˈaɪp/",
+    "ipa": "/ˈhaɪp/",
     "visual": "💬"
   },
   {
@@ -1259,7 +1259,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 94,
-    "ipa": "/ɔːtˈɑːnəməs/",
+    "ipa": "/ɔːˈtɒnəməs/",
     "visual": "🤖"
   },
   {
@@ -1275,7 +1275,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 95,
-    "ipa": "/ɡˈʌvənəns/",
+    "ipa": "/ˈɡʌvənəns/",
     "visual": "⚖️"
   },
   {
@@ -1291,7 +1291,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 96,
-    "ipa": "/riːspˈɑːnsəbəl ˌeɪ ˈaɪ/",
+    "ipa": "/rɪˌspɒnsəbəl ˌeɪ ˈaɪ/",
     "visual": "⚖️"
   },
   {
@@ -1307,7 +1307,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 97,
-    "ipa": "/fˈernəs/",
+    "ipa": "/ˈfernəs/",
     "visual": "⚖️"
   },
   {
@@ -1323,7 +1323,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 98,
-    "ipa": "/bˈaɪəs/",
+    "ipa": "/ˈbaɪəs/",
     "visual": "⚖️"
   },
   {
@@ -1371,7 +1371,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 101,
-    "ipa": "/blˈæk bˈɑːks/",
+    "ipa": "/ˌblæk ˈbɒks/",
     "visual": "⬛"
   },
   {
@@ -1387,7 +1387,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 102,
-    "ipa": "/prˈaɪvəsiː/",
+    "ipa": "/ˈpraɪvəsiː/",
     "visual": "⚖️"
   },
   {
@@ -1416,7 +1416,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 104,
-    "ipa": "/trˈʌstwˌɜːðiː/",
+    "ipa": "/ˈtrʌstwˌɜːðiː/",
     "visual": "⚖️"
   },
   {
@@ -1464,7 +1464,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 107,
-    "ipa": "/sˈeɪfɡˌɑːrd/",
+    "ipa": "/ˈseɪfɡɑːd/",
     "visual": "⚖️"
   },
   {
@@ -1480,7 +1480,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 108,
-    "ipa": "/mˈændˌeɪt/",
+    "ipa": "/ˈmændˌeɪt/",
     "visual": "⚖️"
   },
   {
@@ -1512,7 +1512,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 110,
-    "ipa": "/sˈensətɪv dˈeɪtə/",
+    "ipa": "/ˈsensətɪv ˈdeɪtə/",
     "visual": "⚖️"
   },
   {
@@ -1528,7 +1528,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 111,
-    "ipa": "/mˈɪtəɡˌeɪt/",
+    "ipa": "/ˈmɪtəɡˌeɪt/",
     "visual": "📈"
   },
   {
@@ -1570,7 +1570,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 114,
-    "ipa": "/tˈeltˌeɪl/",
+    "ipa": "/ˈteltˌeɪl/",
     "visual": "💬"
   },
   {
@@ -1596,7 +1596,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 116,
-    "ipa": "/rˈed hˈerɪŋ/",
+    "ipa": "/ˈred ˈherɪŋ/",
     "visual": "💬"
   },
   {
@@ -1622,7 +1622,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 118,
-    "ipa": "/dʒˈɑːrɪŋ/",
+    "ipa": "/ˈdʒɑːrɪŋ/",
     "visual": "💬"
   },
   {
@@ -1635,7 +1635,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 119,
-    "ipa": "/sˈaʊ/",
+    "ipa": "/səʊ/",
     "visual": "💬"
   },
   {
@@ -1648,7 +1648,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 120,
-    "ipa": "/stˈɪr/",
+    "ipa": "/stɪə/",
     "visual": "💬"
   },
   {
@@ -1701,7 +1701,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 124,
-    "ipa": "/nˈɑːn sˈekwɪtə/",
+    "ipa": "/ˌnɒn ˈsekwɪtə/",
     "visual": "💬"
   },
   {
@@ -1714,7 +1714,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 125,
-    "ipa": "/ʃˈædˌəʊ ˌeɪ ˈaɪ/",
+    "ipa": "/ˈʃædˌəʊ ˌeɪ ˈaɪ/",
     "visual": "🔐"
   },
   {
@@ -1727,7 +1727,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 126,
-    "ipa": "/dˈeɪtə brˈiːtʃ/",
+    "ipa": "/ˈdeɪtə ˈbriːtʃ/",
     "visual": "🔓"
   },
   {
@@ -1753,7 +1753,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 128,
-    "ipa": "/mˈælwˌer/",
+    "ipa": "/ˈmælweə/",
     "visual": "🔐"
   },
   {
@@ -1766,7 +1766,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 129,
-    "ipa": "/pˌɑːlˌiːmˈɔːrfɪk mˈælwˌer/",
+    "ipa": "/ˌpɒlɪˈmɔːfɪk ˈmælweə/",
     "visual": "🔐"
   },
   {
@@ -1779,7 +1779,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 130,
-    "ipa": "/vˌʌlnəəbˈɪlɪtiː/",
+    "ipa": "/ˌvʌlnərəˈbɪləti/",
     "visual": "🔐"
   },
   {
@@ -1805,7 +1805,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 132,
-    "ipa": "/prˈɑːmpt ˌɪndʒˈekʃən/",
+    "ipa": "/ˌprɒmpt ɪnˈdʒekʃən/",
     "visual": "🔐"
   },
   {
@@ -1818,7 +1818,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 133,
-    "ipa": "/ətˈæk sˈɜːfəs/",
+    "ipa": "/əˌtæk ˈsɜːfɪs/",
     "visual": "🔐"
   },
   {
@@ -1831,7 +1831,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 134,
-    "ipa": "/səplˈaɪ tʃˈeɪn/",
+    "ipa": "/səplˈaɪ ˈtʃeɪn/",
     "visual": "💬"
   },
   {
@@ -1844,7 +1844,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 135,
-    "ipa": "/θˈɜːd pˈɑːrtiː/",
+    "ipa": "/ˌθɜːd ˈpɑːti/",
     "visual": "💬"
   },
   {
@@ -1857,7 +1857,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 136,
-    "ipa": "/ˈædvəsˌeriː/",
+    "ipa": "/ˈædvəsəri/",
     "visual": "🔐"
   },
   {
@@ -1870,7 +1870,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 137,
-    "ipa": "/kˈɑːmprəmˌaɪz/",
+    "ipa": "/ˈkɒmprəmaɪz/",
     "visual": "🔐"
   },
   {
@@ -1897,7 +1897,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 139,
-    "ipa": "/rɪzˈɪliːəns/",
+    "ipa": "/rɪˈzɪliəns/",
     "visual": "🔐"
   },
   {
@@ -1924,7 +1924,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 141,
-    "ipa": "/prˈiːmiːəm/",
+    "ipa": "/ˈpriːmiəm/",
     "visual": "💳"
   },
   {
@@ -1943,8 +1943,8 @@ window.ECOSTAT_VOCAB = [
   },
   {
     "term": "claim",
-    "fr": "sinistre, demande d'indemnisation",
-    "definition": "A formal request for payment under an insurance policy.",
+    "fr": "demande d'indemnisation, déclaration de sinistre",
+    "definition": "A formal request by a policyholder or insured person for payment or compensation under an insurance policy.",
     "category": "Insurance & Actuarial",
     "pathways": [
       "GRAF",
@@ -1952,7 +1952,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 143,
-    "ipa": "/klˈeɪm/",
+    "ipa": "/ˈkleɪm/",
     "visual": "📋"
   },
   {
@@ -1966,7 +1966,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 144,
-    "ipa": "/mˈɔːrɡədʒ/",
+    "ipa": "/ˈmɔːɡɪdʒ/",
     "visual": "🏠"
   },
   {
@@ -1980,7 +1980,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 145,
-    "ipa": "/prˈɑːpətiː vˈæljuː/",
+    "ipa": "/ˌprɒpəti ˈvæljuː/",
     "visual": "📈"
   },
   {
@@ -1993,7 +1993,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 146,
-    "ipa": "/tˈenənt/",
+    "ipa": "/ˈtenənt/",
     "visual": "💬"
   },
   {
@@ -2012,14 +2012,14 @@ window.ECOSTAT_VOCAB = [
   {
     "term": "actuarially fair",
     "fr": "actuariellement équitable",
-    "definition": "Priced so that the expected premium corresponds to the expected cost of the risk.",
+    "definition": "Priced so that the expected premium equals the expected value of insured losses, before expenses and profit loadings.",
     "category": "Insurance & Actuarial",
     "pathways": [
       "GRAF"
     ],
     "source": "Course 2026",
     "id": 148,
-    "ipa": "/ˌæktʃuˈeəriəli fˈer/",
+    "ipa": "/ˌæktʃuˈeəriəli ˈfeə/",
     "visual": "🛡️"
   },
   {
@@ -2038,8 +2038,8 @@ window.ECOSTAT_VOCAB = [
   },
   {
     "term": "underwater",
-    "fr": "en valeur nette négative",
-    "definition": "Describing a loan or property when the debt owed is greater than the asset's current value.",
+    "fr": "en situation de valeur nette négative",
+    "definition": "Describing a property or loan when the outstanding debt is greater than the asset's current market value.",
     "category": "Finance & Risk",
     "pathways": [
       "IRF",
@@ -2061,7 +2061,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 151,
-    "ipa": "/fɔːrklˈəʊz/",
+    "ipa": "/fɔːˈkləʊz/",
     "visual": "📈"
   },
   {
@@ -2075,20 +2075,20 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 152,
-    "ipa": "/strˈes tˈest/",
+    "ipa": "/ˈstres ˈtest/",
     "visual": "📈"
   },
   {
     "term": "policyholder",
-    "fr": "assuré, souscripteur",
-    "definition": "The person or organisation that owns an insurance policy.",
+    "fr": "titulaire de la police, assuré",
+    "definition": "The person or organisation that owns an insurance policy and is responsible for the contract.",
     "category": "Insurance & Actuarial",
     "pathways": [
       "GRAF"
     ],
     "source": "Course 2026",
     "id": 153,
-    "ipa": "/pˈɑːləsiːhˌəʊldə/",
+    "ipa": "/ˈpɒləsiˌhəʊldə/",
     "visual": "🛡️"
   },
   {
@@ -2103,7 +2103,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 154,
-    "ipa": "/bɪˈheɪvjərəl fənˈæns/",
+    "ipa": "/bɪˌheɪvjərəl ˈfaɪnæns/",
     "visual": "🏛️"
   },
   {
@@ -2118,7 +2118,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 155,
-    "ipa": "/lˈɔːs əvˈɜːʒən/",
+    "ipa": "/ˌlɒs əˈvɜːʃən/",
     "visual": "🏛️"
   },
   {
@@ -2133,7 +2133,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 156,
-    "ipa": "/hˈɜːd bɪˈheɪvjə/",
+    "ipa": "/ˈhɜːd bɪˈheɪvjə/",
     "visual": "🏛️"
   },
   {
@@ -2148,7 +2148,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 157,
-    "ipa": "/ˌəʊvəkˈɑːnfɪdəns/",
+    "ipa": "/ˌəʊvəˈkɒnfɪdəns/",
     "visual": "🏛️"
   },
   {
@@ -2163,7 +2163,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 158,
-    "ipa": "/mˈentəl ʃˈɔːrtkˌʌt/",
+    "ipa": "/ˈmentəl ˈʃɔːrtkˌʌt/",
     "visual": "🏛️"
   },
   {
@@ -2178,7 +2178,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 159,
-    "ipa": "/mˈɑːrkət bˈʌbəl/",
+    "ipa": "/ˈmɑːkɪt ˌbʌbəl/",
     "visual": "🫧"
   },
   {
@@ -2193,7 +2193,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 160,
-    "ipa": "/rˈæʃənəl/",
+    "ipa": "/ˈræʃənəl/",
     "visual": "🏛️"
   },
   {
@@ -2208,7 +2208,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 161,
-    "ipa": "/ɪmˈəʊʃənəl trˈæp/",
+    "ipa": "/ɪmˈəʊʃənəl ˈtræp/",
     "visual": "🏛️"
   },
   {
@@ -2221,7 +2221,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 162,
-    "ipa": "/skˈersɪtiː/",
+    "ipa": "/ˈskersɪtiː/",
     "visual": "🏛️"
   },
   {
@@ -2234,7 +2234,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 163,
-    "ipa": "/ˌɑːpətˈuːnətiː kˈɑːst/",
+    "ipa": "/ˌɒpəˈtjuːnəti ˈkɒst/",
     "visual": "🏛️"
   },
   {
@@ -2261,7 +2261,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 165,
-    "ipa": "/bɪˈheɪvjərəl ˌekənˈɑːmɪks/",
+    "ipa": "/bɪˌheɪvjərəl ˌiːkəˈnɒmɪks/",
     "visual": "🏛️"
   },
   {
@@ -2274,7 +2274,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 166,
-    "ipa": "/məˈnɒpsəni pˈaʊə/",
+    "ipa": "/məˈnɒpsəni ˈpaʊə/",
     "visual": "🏛️"
   },
   {
@@ -2287,7 +2287,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 167,
-    "ipa": "/mənˈɑːpəliː pˈaʊə/",
+    "ipa": "/məˌnɒpəli ˈpaʊə/",
     "visual": "🏛️"
   },
   {
@@ -2315,7 +2315,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 169,
-    "ipa": "/kəlˈektɪv bˈɑːrɡɪnɪŋ/",
+    "ipa": "/kəˌlektɪv ˈbɑːɡɪnɪŋ/",
     "visual": "🏛️"
   },
   {
@@ -2328,20 +2328,20 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 170,
-    "ipa": "/tˈeɪk ˈəʊnəʃˌɪp/",
+    "ipa": "/ˈteɪk ˈəʊnəʃˌɪp/",
     "visual": "🤝"
   },
   {
-    "term": "return on salary",
-    "fr": "retour sur salaire",
-    "definition": "The value an employer receives in return for the cost of employing someone.",
+    "term": "hiring ROI",
+    "fr": "retour sur investissement d'un recrutement",
+    "definition": "The value generated by a hire compared with the costs of recruiting, onboarding and employing that person.",
     "category": "Recruitment",
     "pathways": [
       "COMMON"
     ],
     "source": "Course 2026",
     "id": 171,
-    "ipa": "/rɪtˈɜːn ˈɑːn sˈæləiː/",
+    "ipa": "/ˌhaɪərɪŋ ˌɑːr əʊ ˈaɪ/",
     "visual": "💷"
   },
   {
@@ -2367,7 +2367,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 173,
-    "ipa": "/əsˈes/",
+    "ipa": "/əˈses/",
     "visual": "💬"
   },
   {
@@ -2380,7 +2380,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 174,
-    "ipa": "/ʃˈaɪ əwˈeɪ frˈʌm/",
+    "ipa": "/ʃaɪ əˈweɪ frəm/",
     "visual": "💬"
   },
   {
@@ -2393,7 +2393,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 175,
-    "ipa": "/rˈiːtʃ jˈɔːr fˈʊl pətˈenʃəl/",
+    "ipa": "/riːtʃ jɔː fʊl pəˈtenʃəl/",
     "visual": "🤝"
   },
   {
@@ -2406,20 +2406,20 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 176,
-    "ipa": "/frˈeʃ tʃˈæləndʒ/",
+    "ipa": "/ˈfreʃ ˈtʃæləndʒ/",
     "visual": "🤝"
   },
   {
     "term": "commercially aware",
-    "fr": "avoir le sens des affaires",
-    "definition": "Understanding how a business makes money, competes and creates value.",
+    "fr": "ayant le sens des affaires",
+    "definition": "Able to understand how a business makes money, competes, controls costs and creates value.",
     "category": "Workplace & Management",
     "pathways": [
       "COMMON"
     ],
     "source": "Course 2026",
     "id": 177,
-    "ipa": "/kəmˈɜːʃəliː əwˈer/",
+    "ipa": "/kəˌmɜːʃəli əˈweə/",
     "visual": "🤝"
   },
   {
@@ -2437,7 +2437,7 @@ window.ECOSTAT_VOCAB = [
   },
   {
     "term": "to blank",
-    "fr": "avoir un trou",
+    "fr": "avoir un trou de mémoire",
     "definition": "To suddenly be unable to remember or think of what to say.",
     "category": "Recruitment",
     "pathways": [
@@ -2445,7 +2445,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 179,
-    "ipa": "/blˈæŋk/",
+    "ipa": "/blæŋk/",
     "visual": "🧑‍💼"
   },
   {
@@ -2458,7 +2458,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 180,
-    "ipa": "/sˈɔːr spˈɑːt/",
+    "ipa": "/ˌsɔː ˈspɒt/",
     "visual": "💬"
   },
   {
@@ -2471,7 +2471,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 181,
-    "ipa": "/ɪlˈæbrət/",
+    "ipa": "/ɪˈlæbəreɪt/",
     "visual": "💬"
   },
   {
@@ -2484,7 +2484,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 182,
-    "ipa": "/lˈɜːnɪŋ kˈɜːv/",
+    "ipa": "/ˈlɜːnɪŋ ˈkɜːv/",
     "visual": "🤝"
   },
   {
@@ -2510,20 +2510,20 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 184,
-    "ipa": "/rˈʌfəl sˈʌmwˌʌnz fˈeðəz/",
+    "ipa": "/ˈrʌfəl ˈsʌmwˌʌnz ˈfeðəz/",
     "visual": "💬"
   },
   {
     "term": "filler question",
     "fr": "question de relance pour gagner du temps",
-    "definition": "A clarifying question used to gain a moment to think before answering.",
+    "definition": "A short clarifying or bridging question used to gain a moment to think before answering.",
     "category": "Recruitment",
     "pathways": [
       "COMMON"
     ],
     "source": "Course 2026",
     "id": 185,
-    "ipa": "/fˈɪlə kwˈestʃən/",
+    "ipa": "/ˈfɪlə ˈkwestʃən/",
     "visual": "🧑‍💼"
   },
   {
@@ -2536,7 +2536,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 186,
-    "ipa": "/kˈɑːɡnɪtɪv ˈəʊvəlˌəʊd/",
+    "ipa": "/ˌkɒɡnətɪv ˈəʊvələʊd/",
     "visual": "🤝"
   },
   {
@@ -2549,7 +2549,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 187,
-    "ipa": "/dˈiːp wˈɜːk/",
+    "ipa": "/ˈdiːp ˈwɜːk/",
     "visual": "🤝"
   },
   {
@@ -2588,7 +2588,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 190,
-    "ipa": "/pˈɑːrkɪnsənz lˈɔː/",
+    "ipa": "/ˌpɑːkɪnsənz ˈlɔː/",
     "visual": "🤝"
   },
   {
@@ -2614,7 +2614,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 192,
-    "ipa": "/sˈaʊnd ˈɪʃuː/",
+    "ipa": "/ˈsaʊnd ˈɪʃuː/",
     "visual": "🤝"
   },
   {
@@ -2627,7 +2627,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 193,
-    "ipa": "/ˈaʊtpˌʊt sˈetɪŋz/",
+    "ipa": "/ˈaʊtpˌʊt ˈsetɪŋz/",
     "visual": "🤝"
   },
   {
@@ -2640,7 +2640,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 194,
-    "ipa": "/kˈʌt ˈaʊt/",
+    "ipa": "/ˈkʌt ˈaʊt/",
     "visual": "🤝"
   },
   {
@@ -2653,7 +2653,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 195,
-    "ipa": "/frˈiːz/",
+    "ipa": "/ˈfriːz/",
     "visual": "🤝"
   },
   {
@@ -2666,7 +2666,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 196,
-    "ipa": "/kˈɔːl ɪn/",
+    "ipa": "/ˈkɔːl ɪn/",
     "visual": "🤝"
   },
   {
@@ -2692,7 +2692,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 198,
-    "ipa": "/plˈætfˌɔːrm/",
+    "ipa": "/ˈplætfˌɔːrm/",
     "visual": "💬"
   },
   {
@@ -2705,7 +2705,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 199,
-    "ipa": "/dʒˈɔɪn/",
+    "ipa": "/ˈdʒɔɪn/",
     "visual": "💬"
   },
   {
@@ -2718,7 +2718,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 200,
-    "ipa": "/hˈaɪbrəd wˈɜːk/",
+    "ipa": "/ˈhaɪbrəd ˈwɜːk/",
     "visual": "🏢"
   },
   {
@@ -2744,7 +2744,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 202,
-    "ipa": "/tˈɜːnˌəʊvə/",
+    "ipa": "/ˈtɜːnˌəʊvə/",
     "visual": "🤝"
   },
   {
@@ -2757,7 +2757,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 203,
-    "ipa": "/stˈɪkiː prˈefəəns/",
+    "ipa": "/ˌstɪki ˈprefərəns/",
     "visual": "🤝"
   },
   {
@@ -2770,7 +2770,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 204,
-    "ipa": "/flˈuːəd prˈefəəns/",
+    "ipa": "/ˌfluːɪd ˈprefərəns/",
     "visual": "🤝"
   },
   {
@@ -2783,7 +2783,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 205,
-    "ipa": "/ɡˈəʊldən hˈændkˌʌfs/",
+    "ipa": "/ˈɡəʊldən ˈhændkˌʌfs/",
     "visual": "🤝"
   },
   {
@@ -2796,7 +2796,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 206,
-    "ipa": "/bˈændwˌæɡən/",
+    "ipa": "/ˈbændwˌæɡən/",
     "visual": "💬"
   },
   {
@@ -2809,7 +2809,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 207,
-    "ipa": "/lˈevəl ˈʌv ˌɪnkˈɑːmpətəns/",
+    "ipa": "/ˌlevəl əv ɪnˈkɒmpɪtəns/",
     "visual": "🤝"
   },
   {
@@ -2822,7 +2822,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 208,
-    "ipa": "/pˈiːtəz plætˈəʊ/",
+    "ipa": "/ˈpiːtəz plætˈəʊ/",
     "visual": "🤝"
   },
   {
@@ -2835,12 +2835,12 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 209,
-    "ipa": "/sˈeɪlz rˌeprəzˈentətɪv/",
+    "ipa": "/ˈseɪlz ˌreprəzˈentətɪv/",
     "visual": "🤝"
   },
   {
     "term": "non-addictive",
-    "fr": "non addictif",
+    "fr": "non addictif, ne créant pas de dépendance",
     "definition": "Not causing dependence or addiction.",
     "category": "Professional English",
     "pathways": [
@@ -2848,7 +2848,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 210,
-    "ipa": "/nˈɑːn ədˈɪktɪv/",
+    "ipa": "/ˌnɒn əˈdɪktɪv/",
     "visual": "💬"
   },
   {
@@ -2861,7 +2861,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 211,
-    "ipa": "/lˈæk/",
+    "ipa": "/ˈlæk/",
     "visual": "💬"
   },
   {
@@ -2874,7 +2874,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 212,
-    "ipa": "/kˈʌmfət zˈəʊn/",
+    "ipa": "/ˈkʌmfət ˈzəʊn/",
     "visual": "🤝"
   },
   {
@@ -2887,7 +2887,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 213,
-    "ipa": "/kˈiːp ˈʌp wˈɪð/",
+    "ipa": "/ˈkiːp ˈʌp ˈwɪð/",
     "visual": "🤝"
   },
   {
@@ -2900,7 +2900,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 214,
-    "ipa": "/mˌænɪdʒˈɪriːəl pətˈenʃəl/",
+    "ipa": "/ˌmænɪdʒˈɪriːəl pətˈenʃəl/",
     "visual": "🤝"
   },
   {
@@ -2913,7 +2913,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 215,
-    "ipa": "/plˈæk/",
+    "ipa": "/ˈplæk/",
     "visual": "💬"
   },
   {
@@ -2926,7 +2926,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 216,
-    "ipa": "/sˈætˌaɪə/",
+    "ipa": "/ˈsætˌaɪə/",
     "visual": "💬"
   },
   {
@@ -2939,7 +2939,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 217,
-    "ipa": "/skjˈuːə/",
+    "ipa": "/ˈskjuːə/",
     "visual": "💬"
   },
   {
@@ -2952,7 +2952,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 218,
-    "ipa": "/lˈeksɪkˌɑːn/",
+    "ipa": "/ˈleksɪkən/",
     "visual": "💬"
   },
   {
@@ -2965,7 +2965,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 219,
-    "ipa": "/bˈiː ɪn ˈəʊvə jˈɔːr hˈed/",
+    "ipa": "/ˈbiː ɪn ˈəʊvə ˈjɔːr ˈhed/",
     "visual": "🤝"
   },
   {
@@ -2981,7 +2981,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 220,
-    "ipa": "/fˈɔːrkˌæst/",
+    "ipa": "/ˈfɔːkɑːst/",
     "visual": "📊"
   },
   {
@@ -2994,7 +2994,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 221,
-    "ipa": "/bˈest sˈelə/",
+    "ipa": "/ˈbest ˈselə/",
     "visual": "💬"
   },
   {
@@ -3041,7 +3041,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Interview extension",
     "id": 224,
-    "ipa": "/dɪtˌɜːmənˈɪstɪk mˈɑːdəl/",
+    "ipa": "/dɪˌtɜːmɪˈnɪstɪk ˈmɒdəl/",
     "visual": "📊"
   },
   {
@@ -3057,7 +3057,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Interview extension",
     "id": 225,
-    "ipa": "/stəʊkˈæstɪk mˈɑːdəl/",
+    "ipa": "/stəˌkæstɪk ˈmɒdəl/",
     "visual": "📊"
   },
   {
@@ -3073,7 +3073,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Interview extension",
     "id": 226,
-    "ipa": "/dˈeɪtəsˌet/",
+    "ipa": "/ˈdeɪtəsˌet/",
     "visual": "📊"
   },
   {
@@ -3089,7 +3089,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Professional extension",
     "id": 227,
-    "ipa": "/ˌɑːbzəvˈeɪʃən/",
+    "ipa": "/ˌɒbzəˈveɪʃən/",
     "visual": "📊"
   },
   {
@@ -3105,7 +3105,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Professional extension",
     "id": 228,
-    "ipa": "/vˈeriːəbəl/",
+    "ipa": "/ˈveəriəbəl/",
     "visual": "📊"
   },
   {
@@ -3121,7 +3121,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Professional extension",
     "id": 229,
-    "ipa": "/dɪpˈendənt vˈeriːəbəl/",
+    "ipa": "/dɪˌpendənt ˈveəriəbəl/",
     "visual": "📊"
   },
   {
@@ -3137,7 +3137,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Professional extension",
     "id": 230,
-    "ipa": "/ˌɪndɪpˈendənt vˈeriːəbəl/",
+    "ipa": "/ˌɪndɪˌpendənt ˈveəriəbəl/",
     "visual": "📊"
   },
   {
@@ -3153,7 +3153,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Interview extension",
     "id": 231,
-    "ipa": "/kˌəʊəfˈɪʃənt/",
+    "ipa": "/ˌkəʊəfˈɪʃənt/",
     "visual": "📊"
   },
   {
@@ -3168,7 +3168,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Interview extension",
     "id": 232,
-    "ipa": "/ˈerə tˈɜːm/",
+    "ipa": "/ˌerə ˈtɜːm/",
     "visual": "📊"
   },
   {
@@ -3216,7 +3216,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 235,
-    "ipa": "/lˈɪniːə rəɡrˈeʃən/",
+    "ipa": "/ˈlɪniːə rəɡrˈeʃən/",
     "visual": "📉"
   },
   {
@@ -3258,13 +3258,13 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 238,
-    "ipa": "/ˌɪnstrəmˈentəl vˈeriːəbəl/ · IV /ˌaɪ ˈviː/",
+    "ipa": "/ˌɪnstrəmˈentəl ˈveriːəbəl/ · IV /ˌaɪ ˈviː/",
     "visual": "📊"
   },
   {
     "term": "selection bias",
     "fr": "biais de sélection",
-    "definition": "Systematic distortion caused when the selected sample differs from the target population in a relevant way.",
+    "definition": "Systematic distortion caused by a non-random selection process that is related to the outcome or variables of interest.",
     "category": "Statistics & Econometrics",
     "pathways": [
       "EQUADE",
@@ -3272,7 +3272,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 239,
-    "ipa": "/səlˈekʃən bˈaɪəs/",
+    "ipa": "/səlˈekʃən ˈbaɪəs/",
     "visual": "⚖️"
   },
   {
@@ -3285,7 +3285,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Professional extension",
     "id": 240,
-    "ipa": "/əʊmˈɪtəd vˈeriːəbəl bˈaɪəs/",
+    "ipa": "/əʊmˈɪtəd ˈveriːəbəl ˈbaɪəs/",
     "visual": "⚖️"
   },
   {
@@ -3298,7 +3298,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Professional extension",
     "id": 241,
-    "ipa": "/rɪvˈɜːs kˌɔːzˈɑːlɪtiː/",
+    "ipa": "/rɪˌvɜːs kɔːˈzæləti/",
     "visual": "📊"
   },
   {
@@ -3311,7 +3311,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 242,
-    "ipa": "/kˈɔːzəl ˈɪnfəəns/",
+    "ipa": "/ˌkɔːzəl ˈɪnfərəns/",
     "visual": "📊"
   },
   {
@@ -3350,12 +3350,12 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 245,
-    "ipa": "/fˈiːld ɪkspˈerəmənt/",
+    "ipa": "/ˈfiːld ɪkspˈerəmənt/",
     "visual": "📊"
   },
   {
     "term": "difference-in-differences",
-    "fr": "doubles différences",
+    "fr": "méthode des doubles différences",
     "definition": "A quasi-experimental method comparing changes over time between a treatment group and a comparison group.",
     "category": "Statistics & Econometrics",
     "pathways": [
@@ -3363,7 +3363,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 246,
-    "ipa": "/dˈɪfəəns ɪn dˈɪfəənsɪz/",
+    "ipa": "/ˌdɪfərəns ɪn ˈdɪfərənsɪz/",
     "visual": "📊"
   },
   {
@@ -3376,7 +3376,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 247,
-    "ipa": "/rəɡrˈeʃən dɪskˌɑːntɪnˈuːɪtiː/",
+    "ipa": "/rɪˌɡreʃən ˌdɪskɒntɪˈnjuːəti/",
     "visual": "📉"
   },
   {
@@ -3389,7 +3389,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 248,
-    "ipa": "/prəpˈensɪtiː skˈɔːr/",
+    "ipa": "/prəpˈensɪtiː ˈskɔːr/",
     "visual": "📊"
   },
   {
@@ -3402,7 +3402,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 249,
-    "ipa": "/mˈætʃɪŋ/",
+    "ipa": "/ˈmætʃɪŋ/",
     "visual": "📊"
   },
   {
@@ -3417,7 +3417,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Interview extension",
     "id": 250,
-    "ipa": "/pˈænəl dˈeɪtə/",
+    "ipa": "/ˈpænəl ˈdeɪtə/",
     "visual": "📊"
   },
   {
@@ -3432,7 +3432,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Interview extension",
     "id": 251,
-    "ipa": "/krˈɔːs sˈekʃənəl dˈeɪtə/",
+    "ipa": "/ˈkrɔːs ˈsekʃənəl ˈdeɪtə/",
     "visual": "📊"
   },
   {
@@ -3448,7 +3448,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 252,
-    "ipa": "/tˈaɪm sˈɪriːz/",
+    "ipa": "/ˈtaɪm ˈsɪriːz/",
     "visual": "📈"
   },
   {
@@ -3477,7 +3477,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Interview extension",
     "id": 254,
-    "ipa": "/spjˈʊriːəs rəɡrˈeʃən/",
+    "ipa": "/ˌspjʊəriəs rɪˈɡreʃən/",
     "visual": "📉"
   },
   {
@@ -3522,7 +3522,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Interview extension",
     "id": 257,
-    "ipa": "/ˈɔːrdənˌeriː lˈiːst skwˈerz/ · OLS /ˌəʊ el ˈes/",
+    "ipa": "/ˌɔːdɪnəri liːst ˈskweəz/ · OLS /ˌəʊ el ˈes/",
     "visual": "📊"
   },
   {
@@ -3537,7 +3537,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Interview extension",
     "id": 258,
-    "ipa": "/estˈɪmətə/",
+    "ipa": "/ˈestɪmeɪtə/",
     "visual": "📊"
   },
   {
@@ -3567,7 +3567,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Professional extension",
     "id": 260,
-    "ipa": "/bˈaɪəs vˈeriːəns trˈeɪd ˈɔːf/",
+    "ipa": "/ˈbaɪəs ˈveriːəns ˈtreɪd ˈɔːf/",
     "visual": "⚖️"
   },
   {
@@ -3599,7 +3599,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Professional extension",
     "id": 262,
-    "ipa": "/pˈiː vˈæljuː/",
+    "ipa": "/ˈpiː ˈvæljuː/",
     "visual": "📊"
   },
   {
@@ -3615,7 +3615,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Professional extension",
     "id": 263,
-    "ipa": "/kˈɑːnfədəns ˈɪntəvəl/",
+    "ipa": "/ˌkɒnfɪdəns ˈɪntəvəl/",
     "visual": "📊"
   },
   {
@@ -3631,7 +3631,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Interview extension",
     "id": 264,
-    "ipa": "/kˌɔːrəlˈeɪʃən/",
+    "ipa": "/ˌkɒrəˈleɪʃən/",
     "visual": "📊"
   },
   {
@@ -3663,7 +3663,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Professional extension",
     "id": 266,
-    "ipa": "/kˌəʊvˈɑːrˌiːəns/",
+    "ipa": "/kəʊˈveəriəns/",
     "visual": "📊"
   },
   {
@@ -3679,7 +3679,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Interview extension",
     "id": 267,
-    "ipa": "/vˈeriːəns/",
+    "ipa": "/ˈveriːəns/",
     "visual": "📊"
   },
   {
@@ -3695,7 +3695,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Professional extension",
     "id": 268,
-    "ipa": "/stˈændəd dˌiːviːˈeɪʃən/",
+    "ipa": "/ˌstændəd ˌdiːviˈeɪʃən/",
     "visual": "📊"
   },
   {
@@ -3727,7 +3727,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Interview extension",
     "id": 270,
-    "ipa": "/mˈɪsɪŋ vˈæljuːz/",
+    "ipa": "/ˈmɪsɪŋ ˈvæljuːz/",
     "visual": "📊"
   },
   {
@@ -3757,7 +3757,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Interview extension",
     "id": 272,
-    "ipa": "/pˌerəmˈetrɪk mˈeθəd/",
+    "ipa": "/ˌpærəˈmetrɪk ˈmeθəd/",
     "visual": "📊"
   },
   {
@@ -3773,7 +3773,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Interview extension",
     "id": 273,
-    "ipa": "/nˈɑːn pˌerəmˈetrɪk mˈeθəd/",
+    "ipa": "/ˌnɒn pærəˌmetrɪk ˈmeθəd/",
     "visual": "📊"
   },
   {
@@ -3789,7 +3789,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 274,
-    "ipa": "/bˈuːtstrˌæp/",
+    "ipa": "/ˈbuːtstrˌæp/",
     "visual": "📊"
   },
   {
@@ -3805,7 +3805,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 275,
-    "ipa": "/krˈɔːs vˌælədˈeɪʃən/",
+    "ipa": "/ˌkrɒs vælɪˈdeɪʃən/",
     "visual": "🤖"
   },
   {
@@ -3835,7 +3835,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 277,
-    "ipa": "/sˌensɪtˈɪvɪtiː ənˈæləsəs/",
+    "ipa": "/ˌsensɪˈtɪvəti əˈnæləsɪs/",
     "visual": "📊"
   },
   {
@@ -3848,7 +3848,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 278,
-    "ipa": "/mˌʌltaɪlˈevəl ənˈæləsəs/",
+    "ipa": "/ˌmʌltiˈlevəl əˈnæləsɪs/",
     "visual": "📊"
   },
   {
@@ -3862,7 +3862,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 279,
-    "ipa": "/səvˈaɪvəl ənˈæləsəs/",
+    "ipa": "/səˌvaɪvəl əˈnæləsɪs/",
     "visual": "📊"
   },
   {
@@ -3876,7 +3876,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 280,
-    "ipa": "/kˈæplən mˈaɪə estˈɪmətə/",
+    "ipa": "/ˌkæplən ˈmaɪə ˌestɪmeɪtə/",
     "visual": "📊"
   },
   {
@@ -3890,7 +3890,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 281,
-    "ipa": "/kˈɑːks mˈɑːdəl/",
+    "ipa": "/ˌkɒks ˈmɒdəl/",
     "visual": "📊"
   },
   {
@@ -3903,7 +3903,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 282,
-    "ipa": "/kˈaʊnt mˈɑːdəl/",
+    "ipa": "/ˌkaʊnt ˈmɒdəl/",
     "visual": "📊"
   },
   {
@@ -3919,7 +3919,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 283,
-    "ipa": "/fˈɔːrkˌæstɪŋ/",
+    "ipa": "/ˈfɔːkɑːstɪŋ/",
     "visual": "📊"
   },
   {
@@ -3935,7 +3935,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 284,
-    "ipa": "/dˈeɪtə mˈaɪnɪŋ/",
+    "ipa": "/ˈdeɪtə ˈmaɪnɪŋ/",
     "visual": "🤖"
   },
   {
@@ -3949,7 +3949,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 285,
-    "ipa": "/tˈekst mˈaɪnɪŋ/",
+    "ipa": "/ˈtekst ˈmaɪnɪŋ/",
     "visual": "🤖"
   },
   {
@@ -3965,7 +3965,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 286,
-    "ipa": "/dˈeɪtə ˌvɪʒuəlaɪˈzeɪʃən/",
+    "ipa": "/ˈdeɪtə ˌvɪʒuəlaɪˈzeɪʃən/",
     "visual": "🤖"
   },
   {
@@ -3981,7 +3981,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 287,
-    "ipa": "/prɪdˈɪktɪv mˈɑːdəl/",
+    "ipa": "/prɪˌdɪktɪv ˈmɒdəl/",
     "visual": "🤖"
   },
   {
@@ -3997,7 +3997,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 288,
-    "ipa": "/məʃˈiːn lˈɜːnɪŋ/",
+    "ipa": "/məʃˈiːn ˈlɜːnɪŋ/",
     "visual": "🤖"
   },
   {
@@ -4013,7 +4013,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Professional extension",
     "id": 289,
-    "ipa": "/sˈuːpəvˌaɪzd lˈɜːnɪŋ/",
+    "ipa": "/ˈsuːpəvˌaɪzd ˈlɜːnɪŋ/",
     "visual": "🤖"
   },
   {
@@ -4029,7 +4029,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Professional extension",
     "id": 290,
-    "ipa": "/ənsˈuːpəvˌaɪzd lˈɜːnɪŋ/",
+    "ipa": "/ənsˈuːpəvˌaɪzd ˈlɜːnɪŋ/",
     "visual": "🤖"
   },
   {
@@ -4045,7 +4045,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 291,
-    "ipa": "/klˈʌstəɪŋ/",
+    "ipa": "/ˈklʌstərɪŋ/",
     "visual": "🤖"
   },
   {
@@ -4061,7 +4061,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 292,
-    "ipa": "/mˈɑːdəl bˈeɪst klˈʌstəɪŋ/",
+    "ipa": "/ˌmɒdəl beɪst ˈklʌstərɪŋ/",
     "visual": "🤖"
   },
   {
@@ -4075,7 +4075,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 293,
-    "ipa": "/fˈʌziː klˈʌstəɪŋ/",
+    "ipa": "/ˌfʌzi ˈklʌstərɪŋ/",
     "visual": "🤖"
   },
   {
@@ -4091,7 +4091,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 294,
-    "ipa": "/dɪsˈɪʒən trˈiː/",
+    "ipa": "/dɪsˈɪʒən ˈtriː/",
     "visual": "🌳"
   },
   {
@@ -4107,7 +4107,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 295,
-    "ipa": "/rˈændəm fˈɔːrəst/",
+    "ipa": "/ˌrændəm ˈfɒrɪst/",
     "visual": "🌲"
   },
   {
@@ -4123,7 +4123,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 296,
-    "ipa": "/nˈʊrəl nˈetwˌɜːk/",
+    "ipa": "/ˌnjʊərəl ˈnetwɜːk/",
     "visual": "🧠"
   },
   {
@@ -4136,7 +4136,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 297,
-    "ipa": "/bˈeɪʒɪn nˈetwˌɜːk/",
+    "ipa": "/ˌbeɪziən ˈnetwɜːk/",
     "visual": "🤖"
   },
   {
@@ -4150,7 +4150,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 298,
-    "ipa": "/bˈuːstɪŋ/",
+    "ipa": "/ˈbuːstɪŋ/",
     "visual": "🤖"
   },
   {
@@ -4163,7 +4163,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 299,
-    "ipa": "/dʒənˈetɪk ˈælɡəˌɪðəm/",
+    "ipa": "/dʒəˌnetɪk ˈælɡərɪðəm/",
     "visual": "🤖"
   },
   {
@@ -4179,7 +4179,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Professional extension",
     "id": 300,
-    "ipa": "/fˈiːtʃə/",
+    "ipa": "/ˈfiːtʃə/",
     "visual": "🤖"
   },
   {
@@ -4193,7 +4193,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Professional extension",
     "id": 301,
-    "ipa": "/lˈeɪbəl/",
+    "ipa": "/ˈleɪbəl/",
     "visual": "🤖"
   },
   {
@@ -4209,7 +4209,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Professional extension",
     "id": 302,
-    "ipa": "/trˈeɪnɪŋ sˈet/",
+    "ipa": "/ˈtreɪnɪŋ ˈset/",
     "visual": "🤖"
   },
   {
@@ -4225,7 +4225,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Professional extension",
     "id": 303,
-    "ipa": "/tˈest sˈet/",
+    "ipa": "/ˈtest ˈset/",
     "visual": "🤖"
   },
   {
@@ -4263,7 +4263,7 @@ window.ECOSTAT_VOCAB = [
   {
     "term": "accuracy",
     "fr": "exactitude, taux de bonnes prédictions",
-    "definition": "The proportion of predictions that are correct, commonly used in classification.",
+    "definition": "In classification, the proportion of all predictions that are correct.",
     "category": "Data & AI",
     "pathways": [
       "EQUADE",
@@ -4273,13 +4273,13 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Professional extension",
     "id": 306,
-    "ipa": "/ˈækjəəsiː/",
+    "ipa": "/ˈækjərəsi/",
     "visual": "🤖"
   },
   {
     "term": "precision",
-    "fr": "précision",
-    "definition": "In classification, the proportion of predicted positives that are actually positive.",
+    "fr": "précision, valeur prédictive positive",
+    "definition": "In classification, the proportion of predicted positive cases that are actually positive.",
     "category": "Data & AI",
     "pathways": [
       "EQUADE",
@@ -4287,13 +4287,13 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Professional extension",
     "id": 307,
-    "ipa": "/priːsˈɪʒən/",
+    "ipa": "/prɪˈsɪʒən/",
     "visual": "🤖"
   },
   {
     "term": "recall",
     "fr": "rappel, sensibilité",
-    "definition": "In classification, the proportion of actual positives that the model correctly identifies.",
+    "definition": "In classification, the proportion of actual positive cases that the model correctly identifies.",
     "category": "Data & AI",
     "pathways": [
       "EQUADE",
@@ -4301,7 +4301,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Professional extension",
     "id": 308,
-    "ipa": "/rˈiːkˌɔːl/",
+    "ipa": "/rɪˈkɔːl/",
     "visual": "🤖"
   },
   {
@@ -4315,7 +4315,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Professional extension",
     "id": 309,
-    "ipa": "/kənfjˈuːʒən mˈeɪtrɪks/",
+    "ipa": "/kənˌfjuːʒən ˈmeɪtrɪks/",
     "visual": "🤖"
   },
   {
@@ -4385,7 +4385,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 314,
-    "ipa": "/dˈeɪtəbˌeɪs/",
+    "ipa": "/ˈdeɪtəbeɪs/",
     "visual": "🗄️"
   },
   {
@@ -4399,7 +4399,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 315,
-    "ipa": "/wˈeb skrˈeɪpɪŋ/",
+    "ipa": "/ˈweb ˈskreɪpɪŋ/",
     "visual": "🤖"
   },
   {
@@ -4415,7 +4415,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 316,
-    "ipa": "/vˈɜːʒən kəntrˈəʊl/",
+    "ipa": "/ˈvɜːʒən kəntrˈəʊl/",
     "visual": "🤖"
   },
   {
@@ -4429,7 +4429,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 317,
-    "ipa": "/pˈerəlˌel kəmpjˈuːtɪŋ/",
+    "ipa": "/ˌpærəlel kəmˈpjuːtɪŋ/",
     "visual": "🤖"
   },
   {
@@ -4443,7 +4443,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 318,
-    "ipa": "/dɪstrˈɪbjətəd kəmpjˈuːtɪŋ/",
+    "ipa": "/dɪˌstrɪbjʊtɪd kəmˈpjuːtɪŋ/",
     "visual": "🤖"
   },
   {
@@ -4456,7 +4456,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 319,
-    "ipa": "/hˈædˈuːp/",
+    "ipa": "/həˈduːp/",
     "visual": "🤖"
   },
   {
@@ -4469,7 +4469,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 320,
-    "ipa": "/əpˈætʃiː spˈɑːrk/",
+    "ipa": "/əˌpætʃi ˈspɑːk/",
     "visual": "🤖"
   },
   {
@@ -4482,7 +4482,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 321,
-    "ipa": "/rˈeɡjələ ɪksprˈeʃən/",
+    "ipa": "/ˈreɡjələ ɪksprˈeʃən/",
     "visual": "🤖"
   },
   {
@@ -4495,7 +4495,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 322,
-    "ipa": "/fˈɪʃɪŋ/",
+    "ipa": "/ˈfɪʃɪŋ/",
     "visual": "🎣"
   },
   {
@@ -4521,7 +4521,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Professional extension",
     "id": 324,
-    "ipa": "/fˈaɪrwɑːl/",
+    "ipa": "/ˈfaɪəwɔːl/",
     "visual": "🧱"
   },
   {
@@ -4534,7 +4534,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 325,
-    "ipa": "/pˌenətrˈeɪʃən tˈestɪŋ/",
+    "ipa": "/ˌpenətrˈeɪʃən ˈtestɪŋ/",
     "visual": "🔐"
   },
   {
@@ -4586,7 +4586,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 329,
-    "ipa": "/fəˈensɪk ənˈæləsəs/",
+    "ipa": "/fəˌrenzɪk əˈnæləsɪs/",
     "visual": "🔐"
   },
   {
@@ -4599,7 +4599,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 330,
-    "ipa": "/ˈɪnsədənt rɪspˈɑːns/",
+    "ipa": "/ˌɪnsɪdənt rɪˈspɒns/",
     "visual": "🔐"
   },
   {
@@ -4612,7 +4612,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 331,
-    "ipa": "/nˈetwˌɜːk prˈəʊtəkˌɑːl/",
+    "ipa": "/ˌnetwɜːk ˈprəʊtəkɒl/",
     "visual": "🔐"
   },
   {
@@ -4625,7 +4625,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 332,
-    "ipa": "/enkrˈɪpʃən/",
+    "ipa": "/ɪnˈkrɪpʃən/",
     "visual": "🔒"
   },
   {
@@ -4651,7 +4651,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 334,
-    "ipa": "/sˈiːkrət kˈiː/",
+    "ipa": "/ˈsiːkrət ˈkiː/",
     "visual": "🔐"
   },
   {
@@ -4664,7 +4664,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 335,
-    "ipa": "/pˈʌblɪk kˈiː/",
+    "ipa": "/ˈpʌblɪk ˈkiː/",
     "visual": "🔐"
   },
   {
@@ -4677,7 +4677,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Professional extension",
     "id": 336,
-    "ipa": "/prˈaɪvət kˈiː/",
+    "ipa": "/ˈpraɪvət ˈkiː/",
     "visual": "🔐"
   },
   {
@@ -4690,7 +4690,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 337,
-    "ipa": "/hˈæʃ fˈʌŋkʃən/",
+    "ipa": "/ˈhæʃ ˈfʌŋkʃən/",
     "visual": "🔐"
   },
   {
@@ -4703,7 +4703,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 338,
-    "ipa": "/dˈɪdʒətəl sˈɪɡnətʃə/",
+    "ipa": "/ˌdɪdʒɪtəl ˈsɪɡnətʃə/",
     "visual": "🔐"
   },
   {
@@ -4716,7 +4716,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 339,
-    "ipa": "/ɔːθˌentəkˈeɪʃən/",
+    "ipa": "/ɔːˌθentɪˈkeɪʃən/",
     "visual": "🔐"
   },
   {
@@ -4742,7 +4742,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 341,
-    "ipa": "/sˈeʃən mˈænədʒmənt/",
+    "ipa": "/ˈseʃən ˈmænədʒmənt/",
     "visual": "🔐"
   },
   {
@@ -4755,7 +4755,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 342,
-    "ipa": "/wˈeb sˈɜːvəs/",
+    "ipa": "/ˈweb ˈsɜːvəs/",
     "visual": "🔐"
   },
   {
@@ -4774,14 +4774,14 @@ window.ECOSTAT_VOCAB = [
   {
     "term": "zero-day vulnerability",
     "fr": "vulnérabilité zero-day",
-    "definition": "A security flaw that is unknown to the vendor or has no available fix when attackers can exploit it.",
+    "definition": "A software or hardware vulnerability that is not yet known to the vendor or for which no fix is yet available.",
     "category": "Cybersecurity",
     "pathways": [
       "DSI"
     ],
     "source": "Professional extension",
     "id": 344,
-    "ipa": "/zˈɪrəʊ dˈeɪ vˌʌlnəəbˈɪlɪtiː/",
+    "ipa": "/ˌzɪərəʊ deɪ ˌvʌlnərəˈbɪləti/",
     "visual": "🔐"
   },
   {
@@ -4794,7 +4794,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Professional extension",
     "id": 345,
-    "ipa": "/mˈʌltiː fˈæktə ɔːθˌentəkˈeɪʃən/",
+    "ipa": "/ˌmʌlti ˌfæktə ɔːˌθentɪˈkeɪʃən/",
     "visual": "🔐"
   },
   {
@@ -4807,7 +4807,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Professional extension",
     "id": 346,
-    "ipa": "/lˈiːst prˈɪvlədʒ/",
+    "ipa": "/ˈliːst ˈprɪvlədʒ/",
     "visual": "🔐"
   },
   {
@@ -4821,7 +4821,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Interview extension",
     "id": 347,
-    "ipa": "/prˈezənt vˈæljuː/",
+    "ipa": "/ˌprezənt ˈvæljuː/",
     "visual": "📈"
   },
   {
@@ -4835,7 +4835,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Interview extension",
     "id": 348,
-    "ipa": "/fjˈuːtʃə kˈæʃ flˈəʊ/",
+    "ipa": "/ˈfjuːtʃə ˈkæʃ ˈfləʊ/",
     "visual": "📈"
   },
   {
@@ -4849,7 +4849,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 349,
-    "ipa": "/dˈɪskˌaʊntɪŋ/",
+    "ipa": "/ˈdɪskaʊntɪŋ/",
     "visual": "📈"
   },
   {
@@ -4877,7 +4877,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 351,
-    "ipa": "/ˈɪntrəst rˈeɪt/",
+    "ipa": "/ˈɪntrəst ˈreɪt/",
     "visual": "📈"
   },
   {
@@ -4891,13 +4891,13 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 352,
-    "ipa": "/fˈɔːrwəd rˈeɪt/",
+    "ipa": "/ˈfɔːrwəd ˈreɪt/",
     "visual": "📈"
   },
   {
     "term": "yield curve",
     "fr": "courbe des taux",
-    "definition": "A curve showing interest rates or yields for instruments with different maturities.",
+    "definition": "A curve showing yields or interest rates across different maturities for comparable debt instruments.",
     "category": "Finance & Risk",
     "pathways": [
       "IRF",
@@ -4905,7 +4905,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 353,
-    "ipa": "/jˈiːld kˈɜːv/",
+    "ipa": "/ˈjiːld ˈkɜːv/",
     "visual": "📈"
   },
   {
@@ -4918,7 +4918,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 354,
-    "ipa": "/zˈɪrəʊ kˈuːpˌɔːn kˈɜːv/",
+    "ipa": "/ˌzɪərəʊ ˌkuːpɒn ˈkɜːv/",
     "visual": "📈"
   },
   {
@@ -4932,7 +4932,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 355,
-    "ipa": "/swˈɑːp/",
+    "ipa": "/swɒp/",
     "visual": "📈"
   },
   {
@@ -4945,7 +4945,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 356,
-    "ipa": "/ˈɪntrəst rˈeɪt swˈɑːp/",
+    "ipa": "/ˌɪntrəst reɪt ˈswɒp/",
     "visual": "📈"
   },
   {
@@ -4958,7 +4958,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 357,
-    "ipa": "/fjˈuːtʃəz kˈɑːntrˌækt/",
+    "ipa": "/ˌfjuːtʃəz ˈkɒntrækt/",
     "visual": "📈"
   },
   {
@@ -4971,7 +4971,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 358,
-    "ipa": "/fˈɔːrwəd kˈɑːntrˌækt/",
+    "ipa": "/ˌfɔːwəd ˈkɒntrækt/",
     "visual": "📈"
   },
   {
@@ -4985,7 +4985,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 359,
-    "ipa": "/ˈɑːpʃən/",
+    "ipa": "/ˈɒpʃən/",
     "visual": "📈"
   },
   {
@@ -4999,7 +4999,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 360,
-    "ipa": "/dəˈɪvətɪv/",
+    "ipa": "/dɪˈrɪvətɪv/",
     "visual": "📈"
   },
   {
@@ -5013,7 +5013,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Professional extension",
     "id": 361,
-    "ipa": "/ˌʌndəlˈaɪɪŋ ˈæsˌet/",
+    "ipa": "/ˌʌndəˈlaɪɪŋ ˈæset/",
     "visual": "📈"
   },
   {
@@ -5027,7 +5027,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Professional extension",
     "id": 362,
-    "ipa": "/strˈaɪk prˈaɪs/",
+    "ipa": "/ˈstraɪk ˈpraɪs/",
     "visual": "📈"
   },
   {
@@ -5041,7 +5041,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Professional extension",
     "id": 363,
-    "ipa": "/mətʃˈʊrətiː/",
+    "ipa": "/məˈtʃʊərəti/",
     "visual": "📈"
   },
   {
@@ -5055,7 +5055,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 364,
-    "ipa": "/vˌɑːlətˈɪlətiː/",
+    "ipa": "/ˌvɒləˈtɪləti/",
     "visual": "📈"
   },
   {
@@ -5069,7 +5069,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 365,
-    "ipa": "/lˈəʊkəl vˌɑːlətˈɪlətiː/",
+    "ipa": "/ˌləʊkəl vɒləˈtɪləti/",
     "visual": "📈"
   },
   {
@@ -5083,7 +5083,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 366,
-    "ipa": "/stəʊkˈæstɪk vˌɑːlətˈɪlətiː/",
+    "ipa": "/stəˌkæstɪk vɒləˈtɪləti/",
     "visual": "📈"
   },
   {
@@ -5097,7 +5097,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 367,
-    "ipa": "/blˈæk skˈəʊlz mˈɑːdəl/",
+    "ipa": "/ˌblæk ˈʃəʊlz ˌmɒdəl/",
     "visual": "📈"
   },
   {
@@ -5111,7 +5111,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 368,
-    "ipa": "/mˈɑːrtɪŋˌeɪl/",
+    "ipa": "/ˈmɑːtɪŋɡeɪl/",
     "visual": "📈"
   },
   {
@@ -5125,7 +5125,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 369,
-    "ipa": "/ˈbraʊniən mˈəʊʃən/",
+    "ipa": "/ˈbraʊniən ˈməʊʃən/",
     "visual": "📈"
   },
   {
@@ -5139,7 +5139,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 370,
-    "ipa": "/ˈiːtəʊz fˈɔːrmjələ/",
+    "ipa": "/ˌiːtəʊz ˈfɔːmjələ/",
     "visual": "📈"
   },
   {
@@ -5153,7 +5153,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 371,
-    "ipa": "/ˈɡɜːsənɒv θˈɪrəm/",
+    "ipa": "/ˈɡɜːsənɒv ˈθɪrəm/",
     "visual": "📈"
   },
   {
@@ -5167,7 +5167,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 372,
-    "ipa": "/pɔːrtfˈəʊliːˌəʊ/",
+    "ipa": "/pɔːtˈfəʊliəʊ/",
     "visual": "💼"
   },
   {
@@ -5181,7 +5181,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 373,
-    "ipa": "/pɔːrtfˈəʊliːˌəʊ mˈænədʒmənt/",
+    "ipa": "/pɔːtˌfəʊliəʊ ˈmænɪdʒmənt/",
     "visual": "💼"
   },
   {
@@ -5209,7 +5209,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 375,
-    "ipa": "/daɪvˌɜːsəfəkˈeɪʃən/",
+    "ipa": "/daɪˌvɜːsɪfɪˈkeɪʃən/",
     "visual": "📈"
   },
   {
@@ -5223,7 +5223,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 376,
-    "ipa": "/mˈɑːrkət rˈɪsk/",
+    "ipa": "/ˌmɑːkɪt ˈrɪsk/",
     "visual": "📈"
   },
   {
@@ -5238,7 +5238,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 377,
-    "ipa": "/krˈedət rˈɪsk/",
+    "ipa": "/ˌkredɪt ˈrɪsk/",
     "visual": "📈"
   },
   {
@@ -5252,7 +5252,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Interview extension",
     "id": 378,
-    "ipa": "/dɪfˈɔːlt rˈɪsk/",
+    "ipa": "/dɪˌfɔːlt ˈrɪsk/",
     "visual": "📈"
   },
   {
@@ -5266,7 +5266,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 379,
-    "ipa": "/kˈaʊntəpˌɑːrtiː rˈɪsk/",
+    "ipa": "/ˌkaʊntəˌpɑːti ˈrɪsk/",
     "visual": "📈"
   },
   {
@@ -5280,13 +5280,13 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 380,
-    "ipa": "/lɪkwˈɪdətiː rˈɪsk/",
+    "ipa": "/lɪˌkwɪdəti ˈrɪsk/",
     "visual": "📈"
   },
   {
     "term": "Value at Risk (VaR)",
     "fr": "valeur en risque (VaR)",
-    "definition": "A risk measure estimating a loss threshold over a specified horizon and confidence level.",
+    "definition": "A risk measure giving a loss threshold that should not be exceeded with a stated confidence level over a specified time horizon.",
     "category": "Finance & Risk",
     "pathways": [
       "IRF",
@@ -5294,13 +5294,13 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 381,
-    "ipa": "/vˈæljuː ˈæt rˈɪsk/ · VaR /vɑː/",
+    "ipa": "/ˌvæljuː ət ˈrɪsk/ · VaR /vɑː/",
     "visual": "📈"
   },
   {
     "term": "Tail Value at Risk (TVaR)",
     "fr": "TVaR, espérance conditionnelle de perte",
-    "definition": "A risk measure representing the average loss beyond a specified VaR threshold.",
+    "definition": "A tail-risk measure equal to the average loss conditional on losses being beyond a specified VaR threshold.",
     "category": "Finance & Risk",
     "pathways": [
       "IRF",
@@ -5308,7 +5308,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 382,
-    "ipa": "/tˈeɪl vˈæljuː ˈæt rˈɪsk/ · TVaR /ˌtiː vɑː/",
+    "ipa": "/ˌteɪl væljuː ət ˈrɪsk/ · TVaR /ˌtiː ˈvɑː/",
     "visual": "📈"
   },
   {
@@ -5322,7 +5322,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 383,
-    "ipa": "/kˈæpətəl ˌæləkˈeɪʃən/",
+    "ipa": "/ˌkæpɪtəl ˌæləˈkeɪʃən/",
     "visual": "📈"
   },
   {
@@ -5336,7 +5336,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Professional extension",
     "id": 384,
-    "ipa": "/rˈɪsk ˈæpətˌaɪt/",
+    "ipa": "/ˌrɪsk ˈæpɪtaɪt/",
     "visual": "📈"
   },
   {
@@ -5350,7 +5350,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Professional extension",
     "id": 385,
-    "ipa": "/rˈɪsk ɪkspˈəʊʒə/",
+    "ipa": "/ˌrɪsk ɪkˈspəʊʒə/",
     "visual": "📈"
   },
   {
@@ -5365,7 +5365,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Professional extension",
     "id": 386,
-    "ipa": "/rˈɪsk mˌɪtɪɡˈeɪʃən/",
+    "ipa": "/ˌrɪsk ˌmɪtɪˈɡeɪʃən/",
     "visual": "📈"
   },
   {
@@ -5393,7 +5393,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 388,
-    "ipa": "/bˈæləns ʃˈiːt/",
+    "ipa": "/ˌbæləns ˈʃiːt/",
     "visual": "📈"
   },
   {
@@ -5421,7 +5421,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 390,
-    "ipa": "/lɪkwˈɪdətiː/",
+    "ipa": "/lɪˈkwɪdəti/",
     "visual": "📈"
   },
   {
@@ -5435,7 +5435,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 391,
-    "ipa": "/klˈaɪmət rˈɪsk/",
+    "ipa": "/ˌklaɪmət ˈrɪsk/",
     "visual": "🌦️"
   },
   {
@@ -5449,7 +5449,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Professional extension",
     "id": 392,
-    "ipa": "/fˈɪzɪkəl rˈɪsk/",
+    "ipa": "/ˈfɪzɪkəl ˈrɪsk/",
     "visual": "🌍"
   },
   {
@@ -5463,7 +5463,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Professional extension",
     "id": 393,
-    "ipa": "/trænzˈɪʃən rˈɪsk/",
+    "ipa": "/trænzˈɪʃən ˈrɪsk/",
     "visual": "🌍"
   },
   {
@@ -5478,7 +5478,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 394,
-    "ipa": "/səstˈeɪnəbəl fənˈæns/",
+    "ipa": "/səˌsteɪnəbəl ˈfaɪnæns/",
     "visual": "🌍"
   },
   {
@@ -5492,7 +5492,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 395,
-    "ipa": "/fənˈænʃəl stəbˈɪlɪtiː/",
+    "ipa": "/faɪˌnænʃəl stəˈbɪləti/",
     "visual": "📈"
   },
   {
@@ -5505,7 +5505,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 396,
-    "ipa": "/ˌæktʃˌuːˈeriːəl sˈaɪəns/",
+    "ipa": "/ˌæktʃuˈeəriəl ˈsaɪəns/",
     "visual": "🛡️"
   },
   {
@@ -5518,7 +5518,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Professional extension",
     "id": 397,
-    "ipa": "/ˈæktʃuːˈerˌiː/",
+    "ipa": "/ˈæktʃuəri/",
     "visual": "🛡️"
   },
   {
@@ -5531,7 +5531,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Professional extension",
     "id": 398,
-    "ipa": "/ˈʌndərˈaɪtɪŋ/",
+    "ipa": "/ˌʌndəˈraɪtɪŋ/",
     "visual": "🛡️"
   },
   {
@@ -5544,7 +5544,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Professional extension",
     "id": 399,
-    "ipa": "/ˈʌndərˌaɪtə/",
+    "ipa": "/ˈʌndəˌraɪtə/",
     "visual": "🛡️"
   },
   {
@@ -5557,7 +5557,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Professional extension",
     "id": 400,
-    "ipa": "/pˈɑːləsiː/",
+    "ipa": "/ˈpɒləsi/",
     "visual": "🛡️"
   },
   {
@@ -5570,7 +5570,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Professional extension",
     "id": 401,
-    "ipa": "/kˈʌvəədʒ/",
+    "ipa": "/ˈkʌvərɪdʒ/",
     "visual": "🛡️"
   },
   {
@@ -5583,7 +5583,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Professional extension",
     "id": 402,
-    "ipa": "/dɪdˈʌktəbəl/",
+    "ipa": "/dɪˈdʌktəbəl/",
     "visual": "🛡️"
   },
   {
@@ -5597,7 +5597,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Professional extension",
     "id": 403,
-    "ipa": "/lˌaɪəbˈɪlɪtiː/",
+    "ipa": "/ˌlaɪəˈbɪləti/",
     "visual": "🛡️"
   },
   {
@@ -5610,7 +5610,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 404,
-    "ipa": "/rˌiːɪnʃˈʊrəns/",
+    "ipa": "/ˌriːɪnˈʃʊərəns/",
     "visual": "🔁"
   },
   {
@@ -5623,12 +5623,12 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Professional extension",
     "id": 405,
-    "ipa": "/rˌiːɪnʃˈʊrə/",
+    "ipa": "/ˌriːɪnˈʃʊərə/",
     "visual": "🛡️"
   },
   {
     "term": "treaty reinsurance",
-    "fr": "réassurance en traité",
+    "fr": "réassurance par traité",
     "definition": "Reinsurance covering a defined portfolio or class of business under an ongoing agreement.",
     "category": "Insurance & Actuarial",
     "pathways": [
@@ -5636,12 +5636,12 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 406,
-    "ipa": "/trˈiːtiː rˌiːɪnʃˈʊrəns/",
+    "ipa": "/ˌtriːti riːɪnˈʃʊərəns/",
     "visual": "🔁"
   },
   {
     "term": "excess of loss",
-    "fr": "excédent de sinistre",
+    "fr": "réassurance en excédent de sinistre",
     "definition": "Reinsurance that pays when losses exceed a specified retention or threshold.",
     "category": "Insurance & Actuarial",
     "pathways": [
@@ -5649,7 +5649,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 407,
-    "ipa": "/ˈeksˌes ˈʌv lˈɔːs/",
+    "ipa": "/ˌekses əv ˈlɒs/",
     "visual": "🛡️"
   },
   {
@@ -5662,7 +5662,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Professional extension",
     "id": 408,
-    "ipa": "/rɪzˈɜːvɪŋ/",
+    "ipa": "/rɪˈzɜːvɪŋ/",
     "visual": "🛡️"
   },
   {
@@ -5675,7 +5675,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Professional extension",
     "id": 409,
-    "ipa": "/tˈeknɪkəl prəvˈɪʒənz/",
+    "ipa": "/ˌteknɪkəl prəˈvɪʒənz/",
     "visual": "🛡️"
   },
   {
@@ -5688,7 +5688,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 410,
-    "ipa": "/pjˈʊr prˈiːmiːəm/",
+    "ipa": "/ˌpjʊə ˈpriːmiəm/",
     "visual": "💳"
   },
   {
@@ -5701,20 +5701,20 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 411,
-    "ipa": "/frˈiːkwənsiː/",
+    "ipa": "/ˈfriːkwənsi/",
     "visual": "🛡️"
   },
   {
     "term": "severity",
-    "fr": "sévérité, coût moyen",
-    "definition": "The size or cost of a claim or loss when it occurs.",
+    "fr": "gravité, montant des sinistres",
+    "definition": "The size or financial cost of an individual claim or loss when it occurs.",
     "category": "Insurance & Actuarial",
     "pathways": [
       "GRAF"
     ],
     "source": "ISFA pathway",
     "id": 412,
-    "ipa": "/sɪvˈerɪtiː/",
+    "ipa": "/sɪˈverəti/",
     "visual": "🛡️"
   },
   {
@@ -5727,7 +5727,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 413,
-    "ipa": "/frˈiːkwənsiː sɪvˈerɪtiː mˈɑːdəl/",
+    "ipa": "/ˌfriːkwənsi sɪˌverəti ˈmɒdəl/",
     "visual": "🛡️"
   },
   {
@@ -5754,7 +5754,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 415,
-    "ipa": "/rˈɪsk ˌæɡrəɡˈeɪʃən/",
+    "ipa": "/ˈrɪsk ˌæɡrəɡˈeɪʃən/",
     "visual": "🛡️"
   },
   {
@@ -5767,7 +5767,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 416,
-    "ipa": "/rˈuːən θˈɪriː/",
+    "ipa": "/ˌruːɪn ˈθɪəri/",
     "visual": "🛡️"
   },
   {
@@ -5780,7 +5780,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 417,
-    "ipa": "/mɔːrtˈælətiː tˈeɪbəl/",
+    "ipa": "/mɔːˌtæləti ˈteɪbəl/",
     "visual": "⏳"
   },
   {
@@ -5793,7 +5793,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 418,
-    "ipa": "/lɔːndʒˈevətiː rˈɪsk/",
+    "ipa": "/lɒnˌdʒevəti ˈrɪsk/",
     "visual": "👵"
   },
   {
@@ -5806,7 +5806,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 419,
-    "ipa": "/bˌaɪəmˈetrək rˈɪsk/",
+    "ipa": "/ˌbaɪəʊˌmetrɪk ˈrɪsk/",
     "visual": "🛡️"
   },
   {
@@ -5819,7 +5819,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 420,
-    "ipa": "/lˈaɪf ˌɪnʃˈʊrəns/",
+    "ipa": "/ˌlaɪf ɪnˈʃʊərəns/",
     "visual": "🛡️"
   },
   {
@@ -5832,7 +5832,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 421,
-    "ipa": "/nˈɑːn lˈaɪf ˌɪnʃˈʊrəns/",
+    "ipa": "/ˌnɒn laɪf ɪnˈʃʊərəns/",
     "visual": "🛡️"
   },
   {
@@ -5845,7 +5845,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 422,
-    "ipa": "/ənˈuːətiː/",
+    "ipa": "/əˈnjuːəti/",
     "visual": "🛡️"
   },
   {
@@ -5858,7 +5858,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 423,
-    "ipa": "/ˈsɒlvənsi tuː/",
+    "ipa": "/ˌsɒlvənsi ˈtuː/",
     "visual": "🛡️"
   },
   {
@@ -5871,7 +5871,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 424,
-    "ipa": "/ˌekənˈɑːmɪk sɪnˈeriːəʊ dʒˈenəˌeɪtə/",
+    "ipa": "/ˌiːkəˈnɒmɪk səˈnɑːriəʊ ˌdʒenəreɪtə/",
     "visual": "🛡️"
   },
   {
@@ -5887,7 +5887,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 425,
-    "ipa": "/kˌæləbrˈeɪʃən/",
+    "ipa": "/ˌkælɪˈbreɪʃən/",
     "visual": "📊"
   },
   {
@@ -5900,7 +5900,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 426,
-    "ipa": "/əplˈaɪd ˌekənˈɑːmɪks/",
+    "ipa": "/əˌplaɪd ˌiːkəˈnɒmɪks/",
     "visual": "🏛️"
   },
   {
@@ -5913,7 +5913,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 427,
-    "ipa": "/pˈɑːləsiː ɪvˌæljuːˈeɪʃən/",
+    "ipa": "/ˌpɒləsi ɪˌvæljuˈeɪʃən/",
     "visual": "🏛️"
   },
   {
@@ -5926,7 +5926,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 428,
-    "ipa": "/ˌɪmpˈækt ɪvˌæljuːˈeɪʃən/",
+    "ipa": "/ˌɪmpækt ɪˌvæljuˈeɪʃən/",
     "visual": "🏛️"
   },
   {
@@ -5939,7 +5939,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 429,
-    "ipa": "/pˈʌblɪk pˈɑːləsiː/",
+    "ipa": "/ˌpʌblɪk ˈpɒləsi/",
     "visual": "🏛️"
   },
   {
@@ -5952,7 +5952,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 430,
-    "ipa": "/kˈɑːst ɪfˈektɪvnəs ənˈæləsəs/",
+    "ipa": "/ˌkɒst ɪˌfektɪvnəs əˈnæləsɪs/",
     "visual": "🏛️"
   },
   {
@@ -5965,7 +5965,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 431,
-    "ipa": "/kˈɑːst juːtˈɪlətiː ənˈæləsəs/",
+    "ipa": "/ˌkɒst juːˌtɪləti əˈnæləsɪs/",
     "visual": "🏛️"
   },
   {
@@ -5978,7 +5978,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 432,
-    "ipa": "/kˈɑːst ˌmɪnɪmaɪˈzeɪʃən/",
+    "ipa": "/ˌkɒst ˌmɪnɪmaɪˈzeɪʃən/",
     "visual": "🏛️"
   },
   {
@@ -5991,7 +5991,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 433,
-    "ipa": "/hˈelθ ˌekənˈɑːmɪks/",
+    "ipa": "/ˌhelθ ˌiːkəˈnɒmɪks/",
     "visual": "🏛️"
   },
   {
@@ -6004,7 +6004,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 434,
-    "ipa": "/ˈleɪbə ˌekənˈɑːmɪks/",
+    "ipa": "/ˌleɪbə ˌiːkəˈnɒmɪks/",
     "visual": "🏛️"
   },
   {
@@ -6036,14 +6036,14 @@ window.ECOSTAT_VOCAB = [
   {
     "term": "unemployment",
     "fr": "chômage",
-    "definition": "The state of being willing and able to work but not currently employed.",
+    "definition": "The state of being without work while being available for work and actively seeking employment.",
     "category": "Economics & Policy",
     "pathways": [
       "EQUADE"
     ],
     "source": "ISFA pathway",
     "id": 437,
-    "ipa": "/ˌʌnɪmplˈɔɪmənt/",
+    "ipa": "/ˌʌnɪmˈplɔɪmənt/",
     "visual": "🏛️"
   },
   {
@@ -6057,7 +6057,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 438,
-    "ipa": "/ˌɪnsˈentɪv/",
+    "ipa": "/ɪnˈsentɪv/",
     "visual": "🏛️"
   },
   {
@@ -6071,7 +6071,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 439,
-    "ipa": "/frˈeɪmɪŋ ɪfˈekt/",
+    "ipa": "/ˈfreɪmɪŋ ɪfˈekt/",
     "visual": "🏛️"
   },
   {
@@ -6085,7 +6085,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 440,
-    "ipa": "/stˈætəs kwˈəʊ bˈaɪəs/",
+    "ipa": "/ˈstætəs ˈkwəʊ ˈbaɪəs/",
     "visual": "⚖️"
   },
   {
@@ -6099,7 +6099,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 441,
-    "ipa": "/mˈentəl əkˈaʊntɪŋ/",
+    "ipa": "/ˈmentəl əkˈaʊntɪŋ/",
     "visual": "🏛️"
   },
   {
@@ -6113,7 +6113,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 442,
-    "ipa": "/tˈaɪm ˌɪnkənsˈɪstənsiː/",
+    "ipa": "/ˈtaɪm ˌɪnkənsˈɪstənsiː/",
     "visual": "🏛️"
   },
   {
@@ -6141,7 +6141,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 444,
-    "ipa": "/rˌesɪprˈɑːsɪtiː/",
+    "ipa": "/ˌresɪˈprɒsəti/",
     "visual": "🏛️"
   },
   {
@@ -6168,7 +6168,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 446,
-    "ipa": "/səvˈeɪ sˈæmplɪŋ/",
+    "ipa": "/ˌsɜːveɪ ˈsɑːmplɪŋ/",
     "visual": "📝"
   },
   {
@@ -6181,7 +6181,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 447,
-    "ipa": "/strˈætəfˌaɪd sˈæmplɪŋ/",
+    "ipa": "/ˌstrætɪfaɪd ˈsɑːmplɪŋ/",
     "visual": "📊"
   },
   {
@@ -6194,7 +6194,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 448,
-    "ipa": "/tˈuː stˈeɪdʒ sˈæmplɪŋ/",
+    "ipa": "/ˌtuː steɪdʒ ˈsɑːmplɪŋ/",
     "visual": "📊"
   },
   {
@@ -6207,7 +6207,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 449,
-    "ipa": "/pˈəʊst strˌætəfɪkˈeɪʃən/",
+    "ipa": "/ˌpəʊst strætɪfɪˈkeɪʃən/",
     "visual": "📊"
   },
   {
@@ -6220,7 +6220,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Professional extension",
     "id": 450,
-    "ipa": "/wˈeɪtɪŋ/",
+    "ipa": "/ˈweɪtɪŋ/",
     "visual": "📊"
   },
   {
@@ -6233,7 +6233,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Professional extension",
     "id": 451,
-    "ipa": "/stˈeɪkhˌəʊldə/",
+    "ipa": "/ˈsteɪkhˌəʊldə/",
     "visual": "👥"
   },
   {
@@ -6246,7 +6246,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Professional extension",
     "id": 452,
-    "ipa": "/dɪlˈɪvəəbəl/",
+    "ipa": "/dɪˈlɪvərəbəl/",
     "visual": "🤝"
   },
   {
@@ -6259,7 +6259,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Professional extension",
     "id": 453,
-    "ipa": "/dˈedlˌaɪn/",
+    "ipa": "/ˈdedlˌaɪn/",
     "visual": "⏰"
   },
   {
@@ -6272,7 +6272,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Professional extension",
     "id": 454,
-    "ipa": "/mˈaɪlstˌəʊn/",
+    "ipa": "/ˈmaɪlstˌəʊn/",
     "visual": "🤝"
   },
   {
@@ -6285,7 +6285,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Professional extension",
     "id": 455,
-    "ipa": "/skˈəʊp/",
+    "ipa": "/ˈskəʊp/",
     "visual": "🤝"
   },
   {
@@ -6327,7 +6327,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Professional extension",
     "id": 458,
-    "ipa": "/trˈeɪd ˈɔːf/",
+    "ipa": "/ˈtreɪd ɒf/",
     "visual": "💬"
   },
   {
@@ -6340,7 +6340,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Professional extension",
     "id": 459,
-    "ipa": "/bˈentʃmˌɑːrk/",
+    "ipa": "/ˈbentʃmɑːk/",
     "visual": "💬"
   },
   {
@@ -6353,7 +6353,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Professional extension",
     "id": 460,
-    "ipa": "/kˈiː tˈeɪkəwˌeɪ/",
+    "ipa": "/ˈkiː ˈteɪkəwˌeɪ/",
     "visual": "💬"
   },
   {
@@ -6366,7 +6366,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Professional extension",
     "id": 461,
-    "ipa": "/fˈaɪndɪŋ/",
+    "ipa": "/ˈfaɪndɪŋ/",
     "visual": "💬"
   },
   {
@@ -6392,7 +6392,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Professional extension",
     "id": 463,
-    "ipa": "/rˌekəməndˈeɪʃən/",
+    "ipa": "/ˌrekəməndˈeɪʃən/",
     "visual": "💬"
   },
   {
@@ -6405,7 +6405,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Professional extension",
     "id": 464,
-    "ipa": "/flˈæɡ ˈæn ˈɪʃuː/",
+    "ipa": "/ˈflæɡ ˈæn ˈɪʃuː/",
     "visual": "💬"
   },
   {
@@ -6418,7 +6418,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Professional extension",
     "id": 465,
-    "ipa": "/rˈeɪz ə kənsˈɜːn/",
+    "ipa": "/ˈreɪz ə kənsˈɜːn/",
     "visual": "💬"
   },
   {
@@ -6431,7 +6431,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Professional extension",
     "id": 466,
-    "ipa": "/fˈɑːləʊ ˈʌp/",
+    "ipa": "/ˌfɒləʊ ˈʌp/",
     "visual": "💬"
   },
   {
@@ -6444,7 +6444,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Professional extension",
     "id": 467,
-    "ipa": "/mˈiːt ə rɪkwˈaɪrmənt/",
+    "ipa": "/ˈmiːt ə rɪkwˈaɪrmənt/",
     "visual": "💬"
   },
   {
@@ -6457,7 +6457,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Professional extension",
     "id": 468,
-    "ipa": "/rˈəʊl ˈaʊt/",
+    "ipa": "/ˈrəʊl ˈaʊt/",
     "visual": "🤝"
   },
   {
@@ -6470,7 +6470,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Professional extension",
     "id": 469,
-    "ipa": "/skˈeɪl ˈʌp/",
+    "ipa": "/ˈskeɪl ˈʌp/",
     "visual": "🤝"
   },
   {
@@ -6483,7 +6483,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Professional extension",
     "id": 470,
-    "ipa": "/wˈɜːkflˌəʊ/",
+    "ipa": "/ˈwɜːkflˌəʊ/",
     "visual": "🤝"
   },
   {
@@ -6496,7 +6496,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Professional extension",
     "id": 471,
-    "ipa": "/strˈiːmlˌaɪn/",
+    "ipa": "/ˈstriːmlˌaɪn/",
     "visual": "🤝"
   },
   {
@@ -6509,7 +6509,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Professional extension",
     "id": 472,
-    "ipa": "/bˈɑːtəlnˌek/",
+    "ipa": "/ˈbɒtlnek/",
     "visual": "🤝"
   },
   {
@@ -6522,7 +6522,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Professional extension",
     "id": 473,
-    "ipa": "/trˈʌbəlʃˌuːt/",
+    "ipa": "/ˈtrʌbəlʃˌuːt/",
     "visual": "🤝"
   },
   {
@@ -6574,7 +6574,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Interview extension",
     "id": 477,
-    "ipa": "/kˌɑːnfədˈenʃəl/",
+    "ipa": "/ˌkɒnfɪˈdenʃəl/",
     "visual": "⚖️"
   },
   {
@@ -6587,7 +6587,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Interview extension",
     "id": 478,
-    "ipa": "/dˈeɪtə drˈɪvən dɪsˈɪʒən/",
+    "ipa": "/ˈdeɪtə ˈdrɪvən dɪsˈɪʒən/",
     "visual": "💬"
   },
   {
@@ -6600,12 +6600,12 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Professional extension",
     "id": 479,
-    "ipa": "/kəmˈɜːʃəl əwˈernəs/",
+    "ipa": "/kəˌmɜːʃəl əˈweənəs/",
     "visual": "🤝"
   },
   {
     "term": "manager",
-    "fr": "manager, responsable",
+    "fr": "responsable, manager",
     "definition": "A person responsible for coordinating people, resources and performance.",
     "category": "Workplace & Management",
     "pathways": [
@@ -6613,7 +6613,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Professional extension",
     "id": 480,
-    "ipa": "/mˈænədʒə/",
+    "ipa": "/ˈmænədʒə/",
     "visual": "🤝"
   },
   {
@@ -6626,7 +6626,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Professional extension",
     "id": 481,
-    "ipa": "/lˈiːdəʃˌɪp/",
+    "ipa": "/ˈliːdəʃˌɪp/",
     "visual": "🤝"
   },
   {
@@ -6639,12 +6639,12 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Professional extension",
     "id": 482,
-    "ipa": "/dˌeləɡˈeɪʃən/",
+    "ipa": "/ˌdeləɡˈeɪʃən/",
     "visual": "🤝"
   },
   {
     "term": "feedback",
-    "fr": "retour, feedback",
+    "fr": "retour, retour d'information",
     "definition": "Information given to help someone understand performance and improve.",
     "category": "Workplace & Management",
     "pathways": [
@@ -6652,7 +6652,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Interview extension",
     "id": 483,
-    "ipa": "/fˈiːdbˌæk/",
+    "ipa": "/ˈfiːdbˌæk/",
     "visual": "🗣️"
   },
   {
@@ -6665,7 +6665,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Interview extension",
     "id": 484,
-    "ipa": "/krˈɪtɪkəl fˈiːdbˌæk/",
+    "ipa": "/ˈkrɪtɪkəl ˈfiːdbˌæk/",
     "visual": "🗣️"
   },
   {
@@ -6678,7 +6678,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Professional extension",
     "id": 485,
-    "ipa": "/kˈɑːnflɪkt rˌezəlˈuːʃən/",
+    "ipa": "/ˌkɒnflɪkt ˌrezəˈluːʃən/",
     "visual": "🤝"
   },
   {
@@ -6691,7 +6691,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 486,
-    "ipa": "/tʃˈerpˌɜːsən/",
+    "ipa": "/ˈtʃeəˌpɜːsən/",
     "visual": "🤝"
   },
   {
@@ -6704,7 +6704,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 487,
-    "ipa": "/fəsˈɪlətˌeɪtə/",
+    "ipa": "/fəˈsɪlɪteɪtə/",
     "visual": "🤝"
   },
   {
@@ -6717,7 +6717,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Professional extension",
     "id": 488,
-    "ipa": "/mˈɪnəts/",
+    "ipa": "/ˈmɪnɪts/",
     "visual": "🤝"
   },
   {
@@ -6730,7 +6730,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 489,
-    "ipa": "/ˈɑːn ðə sˈeɪm pˈeɪdʒ/",
+    "ipa": "/ɒn ðə ˌseɪm ˈpeɪdʒ/",
     "visual": "💬"
   },
   {
@@ -6743,7 +6743,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 490,
-    "ipa": "/kˈiːp ˈɑːn trˈæk/",
+    "ipa": "/kiːp ɒn ˈtræk/",
     "visual": "💬"
   },
   {
@@ -6756,7 +6756,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 491,
-    "ipa": "/tˈeɪk sˈʌmθɪŋ ˈɔːflˌaɪn/",
+    "ipa": "/ˈteɪk ˈsʌmθɪŋ ˈɔːflˌaɪn/",
     "visual": "💬"
   },
   {
@@ -6769,7 +6769,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 492,
-    "ipa": "/jˈʊr ˈɑːn mjˈuːt/",
+    "ipa": "/jɔːr ɒn ˈmjuːt/",
     "visual": "🤝"
   },
   {
@@ -6782,7 +6782,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 493,
-    "ipa": "/kənˈekʃən ˈɪz ənstˈeɪbəl/",
+    "ipa": "/kəˌnekʃən ɪz ʌnˈsteɪbəl/",
     "visual": "🤝"
   },
   {
@@ -6795,7 +6795,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 494,
-    "ipa": "/rɪmˈəʊt wˈɜːk/",
+    "ipa": "/rɪˌməʊt ˈwɜːk/",
     "visual": "🏠"
   },
   {
@@ -6808,7 +6808,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 495,
-    "ipa": "/strˈʌktʃəd hˈaɪbrəd/",
+    "ipa": "/ˌstrʌktʃəd ˈhaɪbrɪd/",
     "visual": "🏢"
   },
   {
@@ -6821,7 +6821,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 496,
-    "ipa": "/tˈæsk ləʊkˈeɪʃən fˈɪt/",
+    "ipa": "/ˌtɑːsk ləʊˌkeɪʃən ˈfɪt/",
     "visual": "🤝"
   },
   {
@@ -6834,10 +6834,11 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "Course 2026",
     "id": 497,
-    "ipa": "/pˈerədˌɑːks mˈænədʒmənt fətˈiːɡ/",
+    "ipa": "/ˌpærədɒks ˌmænɪdʒmənt fəˈtiːɡ/",
     "visual": "🤝"
   }
 ];
+
 window.ECOSTAT_INTERVIEW = [
   {
     "q": "Tell me about yourself and your path to econometrics and statistics.",

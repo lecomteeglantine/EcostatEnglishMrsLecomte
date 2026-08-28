@@ -1,5 +1,5 @@
 const CACHE_PREFIX = 'ecostat-english-';
-const CACHE = `${CACHE_PREFIX}v3.0.0`;
+const CACHE = `${CACHE_PREFIX}v4.0.0`;
 const CORE = [
   './',
   './index.html',
