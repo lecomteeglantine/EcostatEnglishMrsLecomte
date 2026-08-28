@@ -1,0 +1,12 @@
+V5 PROGRAMME ALIGNMENT
+
+The V5 pathway vocabulary and training priorities were aligned with the current ISFA Master Econometrics & Statistics overview available in August 2026, including the subject areas listed for:
+- EQUADE: statistics & AI, data mining/text mining/visualisation, surveys/data manipulation, econometric evaluation, applied econometrics/microeconomics and economic decision-making.
+- DSI: data mining, data architectures, IT risk analysis, systems/networks risk, web services/security, cryptology and protection of computations.
+- IRF: statistics & AI, technical/financial risk, stochastic calculus for finance, financial engineering and financial theory.
+- GRAF: statistics & AI, game theory/economics, financial mathematics, risk management, life/non-life actuarial mathematics and credit risk.
+
+Reference:
+https://isfa.univ-lyon1.fr/formation/econometrie-statistiques
+
+This file documents curriculum alignment only. The vocabulary definitions and practice activities are original educational material for the Ecostat English Lab.

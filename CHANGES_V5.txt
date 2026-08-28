@@ -1,0 +1,23 @@
+ECOSTAT ENGLISH LAB · V5 PROGRAMME LAB
+
+PEDAGOGICAL EXPANSION
+- 95 new pathway-specific dictionary entries based on the current ISFA EQUADE, DSI, IRF and GRAF subject areas.
+- Dictionary now contains 592 entries in total.
+- 48 professional collocations for active production.
+- 36 high-risk pronunciation targets with British-English IPA, stress guides and traps.
+- 16 common French-to-English interference traps.
+- 9 chart-speaking prompts with model answers.
+- 16 additional pathway-specific interview questions (60 total).
+
+NEW FEATURES
+- My programme: persistent EQUADE / DSI / IRF / GRAF choice, used as a default filter across the app.
+- Pronunciation Lab: Listen -> Say -> Reveal, plus an auto-scored stress challenge.
+- Skills Lab with Collocation Challenge, Fix the French English, Explain the Chart and 30-second Interview Blitz.
+- New vocabulary entries include a professional example sentence shown in the word detail modal.
+- Progress now includes scored Skills Lab / pronunciation challenges.
+- Progress export/import includes programme choice and skills statistics.
+
+TECHNICAL
+- PWA cache version bumped to v5.0.0.
+- Manifest shortcuts updated for Pronunciation and Skills Lab.
+- Existing V4 privacy, accessibility, offline and quiz safeguards retained.

@@ -1,9 +1,13 @@
 const vocab = window.ECOSTAT_VOCAB || [];
 const interview = window.ECOSTAT_INTERVIEW || [];
+const collocations = window.ECOSTAT_COLLOCATIONS || [];
+const pronunciation = window.ECOSTAT_PRONUNCIATION || [];
+const frenglish = window.ECOSTAT_FRENGLISH || [];
+const charts = window.ECOSTAT_CHARTS || [];
 const $ = s => document.querySelector(s);
 const $$ = s => [...document.querySelectorAll(s)];
 const PATHWAYS = ['EQUADE', 'DSI', 'IRF', 'GRAF'];
-const VIEW_IDS = ['home', 'dictionary', 'flashcards', 'quiz', 'interview', 'progress', 'about'];
+const VIEW_IDS = ['home', 'dictionary', 'flashcards', 'quiz', 'pronunciation', 'skills', 'interview', 'progress', 'about'];
 const validIds = new Set(vocab.map(e => Number(e.id)));
 
 const store = {
@@ -39,11 +43,15 @@ let state = {
   mastered: new Set(cleanIdList(store.get('eco_mastered', []))),
   attempts: nonNegativeInt(store.get('eco_attempts', 0)),
   correct: nonNegativeInt(store.get('eco_correct', 0)),
+  skillAttempts: nonNegativeInt(store.get('eco_skill_attempts', 0)),
+  skillCorrect: nonNegativeInt(store.get('eco_skill_correct', 0)),
+  programme: PATHWAYS.includes(store.get('eco_programme', '')) ? store.get('eco_programme', '') : '',
   path: 'ALL',
   page: 1,
   perPage: 24
 };
 state.correct = Math.min(state.correct, state.attempts);
+state.skillCorrect = Math.min(state.skillCorrect, state.skillAttempts);
 
 let deferredPrompt = null;
 let flashDeck = [];
@@ -53,6 +61,11 @@ let quizRound = { queue: [], target: 0, answered: 0, correct: 0, locked: false, 
 let timerInterval = null;
 let timerLeft = 90;
 let lastInterviewQuestion = null;
+let pronCurrent = null;
+let skillMode = 'collocation';
+let lastSkillIndex = -1;
+let blitzInterval = null;
+let blitzLeft = 30;
 let lastFocusedBeforeModal = null;
 
 const accessibility = store.get('eco_a11y', {});
@@ -79,7 +92,11 @@ function save() {
   store.set('eco_mastered', [...state.mastered]);
   store.set('eco_attempts', state.attempts);
   store.set('eco_correct', state.correct);
+  store.set('eco_skill_attempts', state.skillAttempts);
+  store.set('eco_skill_correct', state.skillCorrect);
+  store.set('eco_programme', state.programme);
   updateStats();
+  updateProgrammeUI();
 }
 
 function renderPathProgress() {
@@ -99,6 +116,7 @@ function renderPathProgress() {
 
 function updateStats() {
   const acc = state.attempts ? `${Math.round(state.correct / state.attempts * 100)}%` : '—';
+  const skillAcc = state.skillAttempts ? `${Math.round(state.skillCorrect / state.skillAttempts * 100)}%` : '—';
   const values = {
     statWords: vocab.length,
     statMastered: state.mastered.size,
@@ -106,7 +124,8 @@ function updateStats() {
     statAccuracy: acc,
     pMastered: state.mastered.size,
     pFav: state.fav.size,
-    pAccuracy: acc
+    pAccuracy: acc,
+    pSkillAccuracy: skillAcc
   };
   for (const [id, value] of Object.entries(values)) {
     const el = $('#' + id);
@@ -117,6 +136,12 @@ function updateStats() {
       ? `${state.correct} correct out of ${state.attempts}`
       : 'No attempts yet';
   }
+  if ($('#pSkillAttempts')) {
+    $('#pSkillAttempts').textContent = state.skillAttempts
+      ? `${state.skillCorrect} correct out of ${state.skillAttempts}`
+      : 'No scored drills yet';
+  }
+  if ($('#progressProgramme')) $('#progressProgramme').textContent = state.programme || 'Not selected';
   if ($('#masterMeter')) {
     $('#masterMeter').style.width = `${vocab.length ? Math.min(100, state.mastered.size / vocab.length * 100) : 0}%`;
   }
@@ -138,6 +163,8 @@ function showView(id, { syncHash = true } = {}) {
   if (id === 'dictionary') renderDictionary();
   if (id === 'flashcards') buildFlashDeck();
   if (id === 'quiz' && !quizRound.target) startQuizRound();
+  if (id === 'pronunciation') renderPronunciation();
+  if (id === 'skills') renderSkill();
   if (id === 'progress') updateStats();
 }
 
@@ -186,6 +213,7 @@ for (const sel of [$('#catFilter'), $('#flashCat')].filter(Boolean)) {
 function matchesPath(entry, path) {
   if (path === 'ALL') return true;
   if (path === 'FAV') return state.fav.has(entry.id);
+  if (path === 'MY') return state.programme ? (entry.pathways.includes(state.programme) || entry.pathways.includes('COMMON')) : true;
   if (path === 'COMMON') return entry.pathways.includes('COMMON');
   return entry.pathways.includes(path) || entry.pathways.includes('COMMON');
 }
@@ -270,7 +298,7 @@ function openWord(id) {
   $('#wordModalBody').innerHTML = `<div style="font-size:4rem" aria-hidden="true">${e.visual}</div>
     <div class="eyebrow">${e.category}</div>
     <h2 id="wordModalTitle" style="font-size:2.2rem;margin:.2em 0">${e.term}</h2>
-    <div class="ipa">${e.ipa}</div><h3>${e.fr}</h3><p>${e.definition}</p>
+    <div class="ipa">${e.ipa}</div><h3>${e.fr}</h3><p>${e.definition}</p>${e.example ? `<div class="example-box"><strong>In context</strong><span>${e.example}</span></div>` : ''}
     <div class="badges">${e.pathways.map(p => `<span class="badge path">${p}</span>`).join('')}<span class="badge">${e.source}</span></div>
     <div class="hero-actions"><button class="ghost" onclick="speak(${JSON.stringify(e.term)})">🔊 Listen</button>
     <button class="primary" onclick="toggleMaster(${e.id})">${state.mastered.has(e.id) ? '✓ Mastered · click to unmark' : 'Mark as mastered'}</button></div>
@@ -294,13 +322,40 @@ $$('#pathChips .chip').forEach(b => b.onclick = () => {
   state.page = 1;
   renderDictionary();
 });
-$$('[data-home-path]').forEach(b => b.onclick = () => {
-  const path = b.dataset.homePath;
-  state.path = path;
+function updateProgrammeUI() {
+  const selected = state.programme;
+  const status = $('#programmeStatus');
+  if (status) status.innerHTML = `<span>Current programme</span><strong>${selected || 'Not selected yet'}</strong>`;
+  $$('[data-programme]').forEach(b => {
+    const on = b.dataset.programme === selected;
+    b.classList.toggle('selected', on);
+    b.setAttribute('aria-pressed', String(on));
+  });
+  if ($('#progressProgramme')) $('#progressProgramme').textContent = selected || 'Not selected';
+}
+function setProgramme(path) {
+  if (!PATHWAYS.includes(path)) return;
+  state.programme = path;
+  store.set('eco_programme', path);
+  for (const id of ['flashPath','quizPath','pronPath','skillPath','interviewPath']) {
+    const el = $('#' + id);
+    if (el) el.value = 'MY';
+  }
+  updateProgrammeUI();
+  updateStats();
+}
+$$('[data-programme]').forEach(b => b.onclick = () => setProgramme(b.dataset.programme));
+$('#openProgrammeVocabulary').onclick = () => {
+  state.path = state.programme ? 'MY' : 'ALL';
   state.page = 1;
-  $$('#pathChips .chip').forEach(x => x.classList.toggle('active', x.dataset.path === path));
+  $$('#pathChips .chip').forEach(x => x.classList.toggle('active', x.dataset.path === state.path));
   navigateTo('dictionary');
-});
+};
+$('#openProgrammeTraining').onclick = () => {
+  if ($('#skillPath')) $('#skillPath').value = state.programme ? 'MY' : 'ALL';
+  navigateTo('skills');
+};
+$('#changeProgramme').onclick = () => navigateTo('home');
 
 function buildFlashDeck() {
   const path = $('#flashPath').value;
@@ -525,6 +580,147 @@ function updateQuizScore() {
 $('#newQuiz').onclick = startQuizRound;
 $('#quizMode').onchange = $('#quizPath').onchange = startQuizRound;
 
+
+function resolvedPath(value) {
+  if (value === 'MY') return state.programme || 'ALL';
+  return value || 'ALL';
+}
+function pronunciationPool() {
+  const path = resolvedPath($('#pronPath')?.value || 'ALL');
+  if (path === 'ALL') return pronunciation;
+  if (path === 'COMMON') return pronunciation.filter(x => x.pathways?.includes('COMMON'));
+  return pronunciation.filter(x => x.pathways?.includes(path) || x.pathways?.includes('COMMON'));
+}
+function pickDifferent(pool, current) {
+  if (!pool.length) return null;
+  const candidates = pool.filter(x => x !== current);
+  return (candidates.length ? candidates : pool)[Math.floor(Math.random() * (candidates.length || pool.length))];
+}
+function renderPronunciation() {
+  const host = $('#pronCard');
+  if (!host) return;
+  const pool = pronunciationPool();
+  if (!pool.length) {
+    host.innerHTML = '<div class="empty-state"><h3>No pronunciation targets</h3><p>Choose another pathway.</p></div>';
+    return;
+  }
+  if (!pronCurrent || !pool.includes(pronCurrent)) pronCurrent = pool[Math.floor(Math.random() * pool.length)];
+  const x = pronCurrent;
+  host.innerHTML = `<div class="pron-visual" aria-hidden="true">◖)))</div><div class="eyebrow">Say it before you reveal it</div><h2>${x.term}</h2><div class="pron-actions"><button id="pronListen" class="primary">🔊 Listen</button><button id="pronReveal" class="ghost">Reveal stress & IPA</button></div><div id="pronRevealBox" class="pron-reveal" hidden><div class="pron-stress">${x.stress}</div><div class="ipa">${x.ipa}</div><p>${x.trap}</p></div>`;
+  $('#pronListen').onclick = () => speak(x.term);
+  $('#pronReveal').onclick = () => {
+    const box = $('#pronRevealBox'); box.hidden = !box.hidden;
+    $('#pronReveal').textContent = box.hidden ? 'Reveal stress & IPA' : 'Hide answer';
+  };
+}
+function newPronunciation() {
+  const pool = pronunciationPool();
+  pronCurrent = pickDifferent(pool, pronCurrent);
+  renderPronunciation();
+}
+function stressOptions(item) {
+  const chunks = item.stress.split('-').map(x => x.toLowerCase());
+  const options = [item.stress];
+  const candidateIndexes = [...Array(chunks.length).keys()];
+  for (const idx of shuffle(candidateIndexes)) {
+    const alt = chunks.map((x,i) => i === idx ? x.toUpperCase() : x).join('-');
+    if (!options.includes(alt)) options.push(alt);
+    if (options.length === 3) break;
+  }
+  while (options.length < 3) options.push(item.stress.toLowerCase());
+  return shuffle(options);
+}
+function renderStressChallenge() {
+  const host = $('#pronCard');
+  const pool = pronunciationPool();
+  if (!host || !pool.length) return;
+  pronCurrent = pickDifferent(pool, pronCurrent);
+  const x = pronCurrent;
+  host.innerHTML = `<div class="eyebrow">Pronunciation Trap</div><h2>${x.term}</h2><p class="skill-prompt">Which guide shows the main stress correctly?</p><div class="answers">${stressOptions(x).map(o => `<button class="answer stress-answer" data-correct="${o === x.stress}">${o}</button>`).join('')}</div><div id="stressFeedback" class="quiz-feedback" aria-live="polite"></div><div class="hero-actions"><button id="stressListen" class="ghost">🔊 Listen first</button></div>`;
+  $('#stressListen').onclick = () => speak(x.term);
+  $$('.stress-answer').forEach(b => b.onclick = () => {
+    if ($$('.stress-answer').some(x => x.disabled)) return;
+    const ok = b.dataset.correct === 'true';
+    state.skillAttempts++; if (ok) state.skillCorrect++; save();
+    $$('.stress-answer').forEach(x => { x.disabled = true; if (x.dataset.correct === 'true') x.classList.add('correct'); });
+    if (!ok) b.classList.add('wrong');
+    $('#stressFeedback').innerHTML = `${ok ? '✓ Correct.' : 'Not this time.'} <strong>${x.stress}</strong> · ${x.ipa}<br>${x.trap}`;
+  });
+}
+$('#nextPron').onclick = newPronunciation;
+$('#pronChallenge').onclick = renderStressChallenge;
+$('#pronPath').onchange = () => { pronCurrent = null; renderPronunciation(); };
+
+function skillPath() { return resolvedPath($('#skillPath')?.value || 'ALL'); }
+function skillPool(items, key='path') {
+  const path = skillPath();
+  if (path === 'ALL') return items;
+  return items.filter(x => x[key] === path || x[key] === 'COMMON');
+}
+function recordSkill(ok) {
+  state.skillAttempts++; if (ok) state.skillCorrect++; save();
+  const acc = state.skillAttempts ? Math.round(state.skillCorrect / state.skillAttempts * 100) : 0;
+  if ($('#skillScore')) $('#skillScore').textContent = `Scored drills: ${state.skillCorrect}/${state.skillAttempts} · ${acc}%`;
+}
+function renderCollocation() {
+  const host = $('#skillHost');
+  const pool = skillPool(collocations);
+  if (!pool.length) { host.innerHTML='<div class="empty-state"><h3>No collocations for this filter</h3></div>'; return; }
+  const item = pool[Math.floor(Math.random()*pool.length)];
+  const distractors = shuffle(collocations.filter(x => x.lead !== item.lead).map(x => x.lead).filter((x,i,a)=>a.indexOf(x)===i)).slice(0,3);
+  const options = shuffle([item.lead, ...distractors]);
+  host.innerHTML = `<div class="eyebrow">Collocation Challenge · ${item.path}</div><h2>___ ${item.tail}</h2><p class="skill-prompt">Choose the verb or verb phrase a professional would naturally use.</p><div class="answers">${options.map(o=>`<button class="answer colloc-answer" data-correct="${o===item.lead}">${o}</button>`).join('')}</div><div id="skillFeedback" class="quiz-feedback"></div><button id="nextSkill" class="ghost">Next collocation</button>`;
+  $$('.colloc-answer').forEach(b => b.onclick = () => {
+    if ($$('.colloc-answer').some(x=>x.disabled)) return;
+    const ok=b.dataset.correct==='true'; recordSkill(ok);
+    $$('.colloc-answer').forEach(x=>{x.disabled=true;if(x.dataset.correct==='true')x.classList.add('correct');}); if(!ok)b.classList.add('wrong');
+    $('#skillFeedback').innerHTML=`${ok?'✓ Natural English.':'Not quite.'} <strong>${item.lead} ${item.tail}</strong> — ${item.fr}<div class="example-box"><span>${item.example}</span></div>`;
+  });
+  $('#nextSkill').onclick=renderCollocation;
+}
+function renderFrenglish() {
+  const host=$('#skillHost');
+  const item=frenglish[Math.floor(Math.random()*frenglish.length)];
+  host.innerHTML=`<div class="eyebrow">Fix the French English</div><h2 class="frenglish-wrong">“${item.wrong}”</h2><p class="skill-prompt">Say a natural correction aloud before you reveal it.</p><div class="hero-actions"><button id="revealFrenglish" class="primary">Reveal correction</button><button id="nextSkill" class="ghost">Another trap</button></div><div id="frenglishAnswer" class="frenglish-answer" hidden><strong>${item.right}</strong><p>${item.why}</p></div>`;
+  $('#revealFrenglish').onclick=()=>{$('#frenglishAnswer').hidden=false;}; $('#nextSkill').onclick=renderFrenglish;
+}
+function renderChart() {
+  const host=$('#skillHost');
+  const pool=skillPool(charts);
+  const item=pool[Math.floor(Math.random()*pool.length)];
+  const max=Math.max(...item.values);
+  host.innerHTML=`<div class="eyebrow">Explain the Chart · ${item.path}</div><h2>${item.title}</h2><div class="mini-chart" role="img" aria-label="${item.title}: ${item.labels.map((x,i)=>`${x} ${item.values[i]} ${item.unit}`).join(', ')}">${item.labels.map((label,i)=>`<div class="bar-col"><span class="bar-value">${item.values[i]}${item.unit==='%'?'%':''}</span><div class="bar" style="height:${Math.max(12,item.values[i]/max*150)}px"></div><b>${label}</b></div>`).join('')}</div><div class="chart-task"><strong>Your task</strong><p>${item.task}</p></div><div class="hero-actions"><button id="chartModel" class="primary">Show model answer</button><button id="nextSkill" class="ghost">New chart</button></div><div id="chartAnswer" class="example-box" hidden><strong>Model answer</strong><span>${item.model}</span></div>`;
+  $('#chartModel').onclick=()=>{$('#chartAnswer').hidden=false;}; $('#nextSkill').onclick=renderChart;
+}
+function blitzPool() {
+  const path=skillPath();
+  if(path==='ALL') return interview;
+  return interview.filter(q=>!interviewHasSpecificPath(q)||q.tag.includes(path));
+}
+function renderBlitz() {
+  clearInterval(blitzInterval); blitzInterval=null; blitzLeft=30;
+  const host=$('#skillHost'); const pool=blitzPool(); const q=pool[Math.floor(Math.random()*pool.length)];
+  host.innerHTML=`<div class="eyebrow">Interview Blitz · 30 seconds</div><blockquote class="blitz-question">${q.q}</blockquote><div id="blitzTimer" class="timer">00:30</div><p class="skill-prompt">One clear point. One reason. One example. Stop.</p><div class="hero-actions"><button id="startBlitz" class="primary">Start 30 sec</button><button id="nextSkill" class="ghost">New question</button></div>`;
+  $('#startBlitz').onclick=()=>{
+    if(blitzInterval){clearInterval(blitzInterval);blitzInterval=null;blitzLeft=30;$('#blitzTimer').textContent='00:30';$('#startBlitz').textContent='Start 30 sec';return;}
+    $('#startBlitz').textContent='Reset';
+    blitzInterval=setInterval(()=>{blitzLeft--;$('#blitzTimer').textContent=fmt(Math.max(0,blitzLeft));if(blitzLeft<=0){clearInterval(blitzInterval);blitzInterval=null;$('#startBlitz').textContent='Time! — reset';}},1000);
+  };
+  $('#nextSkill').onclick=renderBlitz;
+}
+function renderSkill() {
+  if(!$('#skillHost')) return;
+  $$('.skill-mode').forEach(b=>b.classList.toggle('active',b.dataset.skill===skillMode));
+  if(skillMode==='frenglish') renderFrenglish();
+  else if(skillMode==='chart') renderChart();
+  else if(skillMode==='blitz') renderBlitz();
+  else renderCollocation();
+  const acc=state.skillAttempts?Math.round(state.skillCorrect/state.skillAttempts*100):null;
+  if($('#skillScore')) $('#skillScore').textContent=acc===null?'Scored drills: no attempts yet':`Scored drills: ${state.skillCorrect}/${state.skillAttempts} · ${acc}%`;
+}
+$$('.skill-mode').forEach(b=>b.onclick=()=>{skillMode=b.dataset.skill;renderSkill();});
+$('#skillPath').onchange=renderSkill;
+
 function interviewHasSpecificPath(q) {
   return PATHWAYS.some(path => q.tag.includes(path));
 }
@@ -532,7 +728,9 @@ function interviewPool() {
   const path = $('#interviewPath').value;
   if (path === 'ALL') return interview;
   if (path === 'COMMON') return interview.filter(q => !interviewHasSpecificPath(q));
-  return interview.filter(q => !interviewHasSpecificPath(q) || q.tag.includes(path));
+  const resolved = path === 'MY' ? state.programme : path;
+  if (!resolved) return interview;
+  return interview.filter(q => !interviewHasSpecificPath(q) || q.tag.includes(resolved));
 }
 function frameworkFor(q) {
   const tag = q.tag.toLowerCase();
@@ -730,11 +928,14 @@ function renderSpotlight() {
 
 function downloadProgress() {
   const data = {
-    version: 2,
+    version: 3,
     favourites: [...state.fav],
     mastered: [...state.mastered],
     attempts: state.attempts,
     correct: state.correct,
+    skillAttempts: state.skillAttempts,
+    skillCorrect: state.skillCorrect,
+    programme: state.programme,
     accessibility: { ...accessibility },
     exportedAt: new Date().toISOString()
   };
@@ -756,6 +957,9 @@ $('#importFile').onchange = async e => {
     state.mastered = new Set(cleanIdList(d.mastered));
     state.attempts = nonNegativeInt(d.attempts);
     state.correct = Math.min(nonNegativeInt(d.correct), state.attempts);
+    state.skillAttempts = nonNegativeInt(d.skillAttempts);
+    state.skillCorrect = Math.min(nonNegativeInt(d.skillCorrect), state.skillAttempts);
+    state.programme = PATHWAYS.includes(d.programme) ? d.programme : state.programme;
     if (d.accessibility && typeof d.accessibility === 'object') {
       for (const key of ['largeText', 'highContrast', 'readable', 'reduceMotion']) accessibility[key] = !!d.accessibility[key];
       store.set('eco_a11y', accessibility);
@@ -777,6 +981,8 @@ $('#resetBtn').onclick = () => {
     state.mastered.clear();
     state.attempts = 0;
     state.correct = 0;
+    state.skillAttempts = 0;
+    state.skillCorrect = 0;
     save();
     buildFlashDeck();
     startQuizRound();
@@ -799,12 +1005,15 @@ if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => navigator.serviceWorker.register('./sw.js').catch(() => {}));
 }
 
+updateProgrammeUI();
 updateStats();
 renderSpotlight();
 refreshInstallUI();
 renderDictionary();
 buildFlashDeck();
 startQuizRound();
+renderPronunciation();
+renderSkill();
 newInterview();
 const initialView = VIEW_IDS.includes(location.hash.slice(1)) ? location.hash.slice(1) : 'home';
 showView(initialView, { syncHash: false });
