@@ -1,0 +1,41 @@
+ECOSTAT ENGLISH LAB — V3 STABLE
+
+Technical stability
+- Service worker cache isolated to this project: it no longer deletes caches belonging to other GitHub Pages projects.
+- Offline navigation uses a safe network-first fallback; local static files use cache-first.
+- Hash-based navigation now supports reload, bookmarks and browser Back/Forward.
+- Local-storage writes and imported progress are validated more safely.
+
+Practice
+- 10-question rounds with no repeated target word inside a round.
+- Typed answers can only be submitted once per question.
+- Translation distractors are unique, avoiding ambiguous duplicate French choices.
+- Round score and lifetime score are shown separately.
+
+Flashcards
+- Added “Not mastered only”.
+- Mastered cards can leave the current deck immediately when that filter is active.
+- Clear empty-deck states and improved button states.
+
+Interview Lab
+- Pathway filtering for EQUADE, DSI, IRF and GRAF while keeping general professional questions.
+- Built-in answer structures: STAR, PREP, technical explanation and ethical decision.
+- Immediate duplicate question avoided.
+
+Dictionary and progress
+- Search is accent-insensitive (e.g. regression can find régression).
+- Improved pagination semantics and empty-search feedback.
+- Added mastery-by-pathway dashboard.
+- Corrected the missing IPA for Solvency II.
+
+Accessibility and UX
+- Feature cards are keyboard-accessible buttons.
+- Proper labels for form controls.
+- Focus-visible styling, modal focus management, Escape-to-close and focus trapping.
+- Respects system reduced-motion preference.
+- Online/offline status shown in the header.
+- Added canonical/Open Graph metadata, robots.txt and sitemap.xml.
+
+Preserved
+- 497 vocabulary entries and 44 interview questions.
+- Existing visual identity, privacy model, PWA installation, favourites, mastery, audio, export/import and footer credit.

@@ -5858,7 +5858,7 @@ window.ECOSTAT_VOCAB = [
     ],
     "source": "ISFA pathway",
     "id": 423,
-    "ipa": "British English audio available",
+    "ipa": "/ˈsɒlvənsi tuː/",
     "visual": "🛡️"
   },
   {

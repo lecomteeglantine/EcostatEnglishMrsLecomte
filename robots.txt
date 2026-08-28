@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://lecomteeglantine.github.io/EcostatEnglishMrsLecomte/sitemap.xml
