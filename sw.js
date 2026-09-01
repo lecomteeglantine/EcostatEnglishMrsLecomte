@@ -1,16 +1,16 @@
 const CACHE_PREFIX = 'ecostat-english-';
-const CACHE = `${CACHE_PREFIX}v6.2.0`;
-const VERSION = '6.2.0';
+const CACHE = `${CACHE_PREFIX}v6.2.1`;
+const VERSION = '6.2.1';
 const CORE = [
   './',
   './index.html',
   './session1-linkedin-rescue-squad.html',
   './session2-beat-the-ats.html',
-  './styles.css?v=6.2.0',
-  './fixes.css?v=6.2.0',
-  './data.js?v=6.2.0',
-  './app.js?v=6.2.0',
-  './manifest.webmanifest?v=6.2.0',
+  './styles.css?v=6.2.1',
+  './fixes.css?v=6.2.1',
+  './data.js?v=6.2.1',
+  './app.js?v=6.2.1',
+  './manifest.webmanifest?v=6.2.1',
   './icons/icon-192.png',
   './icons/icon-512.png',
   './icons/apple-touch-icon.png'
@@ -45,10 +45,10 @@ async function networkFirst(request, fallbackUrl = null) {
     }
     return response;
   } catch (error) {
-    const cached = await caches.match(request);
+    const cached = await caches.match(request, { ignoreSearch: true });
     if (cached) return cached;
     if (fallbackUrl) {
-      const fallback = await caches.match(fallbackUrl);
+      const fallback = await caches.match(fallbackUrl, { ignoreSearch: true });
       if (fallback) return fallback;
     }
     throw error;
@@ -56,7 +56,7 @@ async function networkFirst(request, fallbackUrl = null) {
 }
 
 async function staleWhileRevalidate(request) {
-  const cached = await caches.match(request);
+  const cached = await caches.match(request, { ignoreSearch: true });
   const update = fetchFresh(request).then(async response => {
     if (response && response.ok) {
       const cache = await caches.open(CACHE);
