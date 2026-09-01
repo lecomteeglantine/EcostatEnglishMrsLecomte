@@ -1,4 +1,4 @@
-/* Ecostat English Lab V6.1.0 — targeted stability/UI fixes */
+/* Ecostat English Lab V6.1.1 — targeted stability/UI fixes */
 .data-alert{margin:10px 0 18px;padding:14px 16px;border-radius:16px;border:1px solid rgba(255,111,112,.55);background:rgba(89,43,54,.92);color:#fff;box-shadow:var(--shadow)}
 .data-alert strong{display:block;margin-bottom:5px}.data-alert p{margin:.25em 0 .7em;line-height:1.45}.data-alert .hero-actions{margin-top:8px}.data-alert .ghost{background:#321a22;border-color:#b45d68}
 .word-card>div:nth-child(2){min-width:0}.word-card h3,.translation,.definition,.example-box,.framework,.frenglish-answer{overflow-wrap:anywhere;word-break:normal}

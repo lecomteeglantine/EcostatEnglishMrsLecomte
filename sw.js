@@ -1,15 +1,15 @@
 const CACHE_PREFIX = 'ecostat-english-';
-const CACHE = `${CACHE_PREFIX}v6.1.0`;
-const VERSION = '6.1.0';
+const CACHE = `${CACHE_PREFIX}v6.1.1`;
+const VERSION = '6.1.1';
 const CORE = [
   './',
   './index.html',
   './session1-linkedin-rescue-squad.html',
-  './styles.css?v=6.1.0',
-  './fixes.css?v=6.1.0',
-  './data.js?v=6.1.0',
-  './app.js?v=6.1.0',
-  './manifest.webmanifest?v=6.1.0',
+  './styles.css?v=6.1.1',
+  './fixes.css?v=6.1.1',
+  './data.js?v=6.1.1',
+  './app.js?v=6.1.1',
+  './manifest.webmanifest?v=6.1.1',
   './icons/icon-192.png',
   './icons/icon-512.png',
   './icons/apple-touch-icon.png'
