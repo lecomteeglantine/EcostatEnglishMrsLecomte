@@ -1,0 +1,31 @@
+/* Ecostat English Lab V6.0.1 — targeted stability/UI fixes */
+.data-alert{margin:10px 0 18px;padding:14px 16px;border-radius:16px;border:1px solid rgba(255,111,112,.55);background:rgba(89,43,54,.92);color:#fff;box-shadow:var(--shadow)}
+.data-alert strong{display:block;margin-bottom:5px}.data-alert p{margin:.25em 0 .7em;line-height:1.45}.data-alert .hero-actions{margin-top:8px}.data-alert .ghost{background:#321a22;border-color:#b45d68}
+.word-card>div:nth-child(2){min-width:0}.word-card h3,.translation,.definition,.example-box,.framework,.frenglish-answer{overflow-wrap:anywhere;word-break:normal}
+.modal[aria-hidden="true"]{pointer-events:none}.modal[aria-hidden="false"]{pointer-events:auto}
+.modal-card:focus{outline:none}
+.smallbtn{min-width:40px;min-height:40px;width:40px;height:40px}
+.answer{min-height:46px}.primary,.ghost,.install-mini,.chip,.pathway-jump,.quick-action,.skill-mode{touch-action:manipulation}
+.quiz-feedback{line-height:1.45}
+.flash-card{user-select:none;-webkit-user-select:none}
+.mini-chart{overflow-x:auto;overscroll-behavior-inline:contain}
+.bar-col{flex:0 0 auto}
+.status-note{color:var(--muted);font-size:.82rem;line-height:1.45}
+@media(max-width:680px){.top-actions{margin-left:auto}.word-card{padding:14px;gap:9px}.card-actions{gap:5px}.data-alert{margin-inline:0}.review-actions{flex-wrap:wrap}.review-actions button{flex:1 1 120px}.mini-chart{justify-content:flex-start}}
+/* Balanced six-card home grid and V6 dynamic states */
+.features{grid-template-columns:repeat(3,minmax(0,1fr))}
+.data-alert{display:flex;align-items:center;justify-content:space-between;gap:16px}.data-alert span{display:block;line-height:1.45}.data-alert button{flex:0 0 auto}
+.pathway-jump.selected{border-color:var(--teal);box-shadow:0 0 0 1px var(--teal) inset}
+.empty-state{grid-column:1/-1;text-align:center;padding:28px}.empty-state p{color:var(--muted)}
+.quiz-feedback{margin-top:14px}.feedback-ok{color:#bff6e9}.feedback-bad{color:#ffd1d4}
+.pron-reveal,.frenglish-answer,.model-answer,.example-box{margin-top:16px;padding:14px;border-radius:14px;background:rgba(7,20,38,.58);border:1px solid rgba(115,174,210,.16)}
+.pron-reveal strong,.frenglish-right{font-size:1.2rem;color:var(--teal)}
+.skill-next{margin-top:12px}.blitz-timer{font-variant-numeric:tabular-nums;font-size:2rem;color:var(--teal);font-weight:900;margin:18px 0}
+.mini-chart{display:flex;align-items:flex-end;justify-content:center;gap:16px;min-height:210px;padding:22px 8px 8px}.bar-col{min-width:62px;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;gap:6px}.bar{width:44px;min-height:6px;border-radius:8px 8px 3px 3px;background:linear-gradient(180deg,var(--teal),#247c83)}.bar-value{font-weight:850;font-size:.8rem}.bar-label{color:var(--muted);font-size:.78rem;text-align:center}.chart-task{margin-top:16px}.model-answer p{margin-bottom:0}
+.path-progress-head{display:flex;justify-content:space-between;gap:12px;margin-bottom:10px}.programme-progress{display:flex;align-items:center;justify-content:space-between;gap:14px}
+.word-detail .detail-visual{font-size:3.2rem;margin-bottom:8px}.example-text{color:var(--muted);line-height:1.45}
+button:disabled{cursor:not-allowed;opacity:.78}
+@media(max-width:900px){.features{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:680px){.features{grid-template-columns:1fr}.data-alert{align-items:stretch;flex-direction:column}.data-alert button{width:100%}.programme-progress{align-items:flex-start;flex-direction:column}.mini-chart{justify-content:flex-start}}
+.data-alert[hidden]{display:none!important}
+.spotlight-actions .smallbtn{min-width:40px;min-height:40px;width:40px;height:40px}
