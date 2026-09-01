@@ -1,4 +1,4 @@
-/* Ecostat English Lab V6.1.3 — targeted stability/UI fixes */
+/* Ecostat English Lab V6.1.4 — targeted stability/UI fixes */
 .data-alert{margin:10px 0 18px;padding:14px 16px;border-radius:16px;border:1px solid rgba(255,111,112,.55);background:rgba(89,43,54,.92);color:#fff;box-shadow:var(--shadow)}
 .data-alert strong{display:block;margin-bottom:5px}.data-alert p{margin:.25em 0 .7em;line-height:1.45}.data-alert .hero-actions{margin-top:8px}.data-alert .ghost{background:#321a22;border-color:#b45d68}
 .word-card>div:nth-child(2){min-width:0}.word-card h3,.translation,.definition,.example-box,.framework,.frenglish-answer{overflow-wrap:anywhere;word-break:normal}
@@ -34,12 +34,12 @@ button:disabled{cursor:not-allowed;opacity:.78}
 .group-nav{border-color:rgba(85,214,194,.28)!important}.group-home-panel{margin:28px 0 6px;padding:22px 24px;border:1px solid rgba(85,214,194,.28);border-radius:22px;background:linear-gradient(135deg,rgba(17,57,76,.82),rgba(8,29,49,.96));display:flex;align-items:center;justify-content:space-between;gap:24px}.group-home-panel h2{margin:.25rem 0 .4rem}.group-home-panel p{max-width:72ch;color:var(--muted);line-height:1.55;margin:0}.group-home-actions{display:flex;min-width:260px;flex-direction:column;align-items:flex-end;gap:10px}.group-home-actions span{color:var(--muted);font-size:.8rem;text-align:right}.group-link{display:inline-flex;align-items:center;justify-content:center;text-decoration:none;text-align:center}.session-activity-grid{display:grid;grid-template-columns:minmax(0,650px);gap:18px}.session-activity-card{position:relative;padding:26px;border:1px solid rgba(85,214,194,.25);border-radius:22px;background:linear-gradient(180deg,rgba(15,44,70,.96),rgba(7,27,46,.96));box-shadow:var(--shadow)}.session-activity-top{display:flex;justify-content:space-between;gap:10px;align-items:center}.session-number,.group-badge{display:inline-flex;border-radius:999px;padding:6px 9px;font-size:.75rem;font-weight:850;letter-spacing:.04em}.session-number{background:rgba(85,214,194,.12);color:var(--teal);border:1px solid rgba(85,214,194,.25)}.group-badge{background:rgba(128,191,255,.1);color:#c9e6ff;border:1px solid rgba(128,191,255,.22)}.session-activity-icon{width:58px;height:58px;margin:20px 0 14px;border-radius:16px;display:grid;place-items:center;background:#0a66c2;color:white;font-size:1.35rem;font-weight:950}.session-activity-card h3{font-size:1.55rem;margin:.15rem 0}.session-activity-card p{color:var(--muted);line-height:1.55}.activity-facts{display:flex;flex-wrap:wrap;gap:8px;padding:0;margin:16px 0 20px;list-style:none}.activity-facts li{border:1px solid rgba(115,174,210,.18);border-radius:999px;padding:6px 9px;color:var(--muted);font-size:.78rem}@media(max-width:760px){.group-home-panel{align-items:flex-start;flex-direction:column}.group-home-actions{min-width:0;align-items:stretch;width:100%}.group-home-actions span{text-align:left}.session-activity-grid{grid-template-columns:1fr}}
 
 
-/* V6.1.3 — final Group Activity integration hardening */
+/* V6.1.4 — final Group Activity integration hardening */
 .group-link:focus-visible,.group-nav:focus-visible{outline:3px solid var(--teal);outline-offset:3px}
 @media(max-width:520px){.group-home-panel{padding:18px}.session-activity-card{padding:20px}.activity-facts{gap:6px}}
 
 
-/* V6.1.3 — Group Activities organised by course session */
+/* V6.1.4 — Group Activities organised by course session */
 .group-session{margin-top:8px;padding:22px;border:1px solid rgba(128,191,255,.16);border-radius:24px;background:rgba(7,24,42,.52)}
 .group-session-head{display:flex;align-items:flex-end;justify-content:space-between;gap:18px;margin-bottom:18px;padding-bottom:16px;border-bottom:1px solid rgba(128,191,255,.13)}
 .group-session-head h3{margin:.2rem 0 .25rem;font-size:clamp(1.7rem,4vw,2.25rem)}
