@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <title>Ecostat English Lab · Mrs Lecomte</title>
   <meta name="description" content="Professional English vocabulary, pronunciation, collocations and interview practice for M2 Econometrics & Statistics students at ISFA.">
-  <meta name="application-name" content="Ecostat English Lab V6">
+  <meta name="application-name" content="Ecostat English Lab V6.1">
   <meta name="theme-color" content="#08182f">
   <meta name="color-scheme" content="dark">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -15,10 +15,10 @@
   <meta property="og:description" content="Professional English for M2 Econometrics & Statistics students at ISFA.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://lecomteeglantine.github.io/EcostatEnglishMrsLecomte/">
-  <link rel="manifest" href="manifest.webmanifest?v=6.0.1">
+  <link rel="manifest" href="manifest.webmanifest?v=6.1.0">
   <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
-  <link rel="stylesheet" href="styles.css?v=6.0.1">
-  <link rel="stylesheet" href="fixes.css?v=6.0.1">
+  <link rel="stylesheet" href="styles.css?v=6.1.0">
+  <link rel="stylesheet" href="fixes.css?v=6.1.0">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -33,6 +33,7 @@
       <button type="button" data-view="pronunciation">Pronunciation</button>
       <button type="button" data-view="skills">Skills Lab</button>
       <button type="button" data-view="interview">Interview Lab</button>
+      <button type="button" data-view="group-activities" class="group-nav">Group Activities</button>
       <button type="button" data-view="progress">Progress</button>
       <button type="button" data-view="about">About</button>
     </nav>
@@ -100,6 +101,11 @@
       <button type="button" class="feature-card jump" data-view="skills"><div class="feature-top"><span class="feature-index">05</span><div class="ico" aria-hidden="true">⚡</div></div><h3>Skills Lab</h3><p>Collocations, French-English traps, chart language and 30-second speaking sprints.</p></button>
       <button type="button" class="feature-card jump" data-view="interview"><div class="feature-top"><span class="feature-index">06</span><div class="ico" aria-hidden="true">◉</div></div><h3>Interview Lab</h3><p>Practise professional, technical and curveball questions from your course.</p></button>
     </div>
+
+    <div class="group-home-panel">
+      <div><div class="eyebrow">Session 1 · Group Activity</div><h2>LinkedIn Rescue Squad</h2><p>Work in a team of 3–4. Rescue an Ecostat candidate’s professional profile, make ten scored decisions, then prepare a short presentation in which everyone speaks.</p></div>
+      <div class="group-home-actions"><span>20–25 min · one device · 2 min max per speaker</span><a class="primary group-link" href="session1-linkedin-rescue-squad.html">Start the group activity</a></div>
+    </div>
   </section>
 
   <section id="dictionary" class="view">
@@ -142,6 +148,20 @@
     <div class="interview-layout"><div class="interview-card"><div><div id="interviewTag" class="eyebrow"></div><blockquote id="interviewQ"></blockquote><div id="timer" class="timer" aria-label="Interview timer">01:30</div><div class="hero-actions centred"><button type="button" id="timerBtn" class="primary">Start 90-sec timer</button><button type="button" id="newInterview" class="ghost">New question</button><button type="button" id="frameworkBtn" class="ghost" aria-expanded="false" aria-controls="interviewFramework">Show answer framework</button></div><div id="interviewFramework" class="framework" hidden></div><p class="mini-note">Aim for a clear structure, one concrete example and plain English rather than jargon.</p></div></div><aside class="panel sidepanel interview-settings"><h3>Question settings</h3><label for="interviewPath">Pathway</label><select id="interviewPath"><option>ALL</option><option value="MY">MY PROGRAMME</option><option>COMMON</option><option>EQUADE</option><option>DSI</option><option>IRF</option><option>GRAF</option></select><p class="mini-note">A pathway deck also includes general recruitment, communication and workplace questions.</p><div class="framework-key"><strong>Built-in speaking structures</strong><span>STAR · PREP · technical explanation · ethical decision</span></div></aside></div>
   </section>
 
+  <section id="group-activities" class="view">
+    <div class="section-head"><div><div class="eyebrow">Group Activities</div><h2>Build, decide, explain.</h2><p>Collaborative tasks linked to the course sessions. One device per team; every student must contribute orally.</p></div></div>
+    <div class="session-activity-grid">
+      <article class="session-activity-card">
+        <div class="session-activity-top"><span class="session-number">Session 1</span><span class="group-badge">Group Activity</span></div>
+        <div class="session-activity-icon" aria-hidden="true">in</div>
+        <h3>LinkedIn Rescue Squad</h3>
+        <p>Rescue a weak professional profile for an EQUADE, DSI, IRF or GRAF candidate. Ten fixed-score decisions test positioning, credibility, LinkedIn writing, plain English and the elevator pitch.</p>
+        <ul class="activity-facts"><li>3–4 students</li><li>20–25 minutes</li><li>Score /100</li><li>2 minutes max per speaker</li></ul>
+        <a class="primary group-link" href="session1-linkedin-rescue-squad.html">Launch Session 1</a>
+      </article>
+    </div>
+  </section>
+
   <section id="progress" class="view">
     <div class="section-head"><div><div class="eyebrow">Progress</div><h2>Your progress stays yours.</h2><p>Stored only in this browser using local storage.</p></div></div>
     <div class="programme-progress panel"><div><div class="eyebrow">My programme</div><strong id="progressProgramme">Not selected</strong></div><button type="button" id="changeProgramme" class="ghost">Change on Home</button></div>
@@ -162,7 +182,7 @@
 <div id="a11yModal" class="modal" role="dialog" aria-modal="true" aria-labelledby="a11yTitle" aria-hidden="true"><div class="modal-card"><button type="button" class="smallbtn modal-close" data-close="a11yModal" aria-label="Close accessibility settings">×</button><h2 id="a11yTitle">Accessibility</h2><div class="a11y-grid"><label class="toggle">Larger text <input id="largeText" type="checkbox"></label><label class="toggle">High contrast <input id="highContrast" type="checkbox"></label><label class="toggle">Reading spacing <input id="readable" type="checkbox"></label><label class="toggle">Reduce motion <input id="reduceMotion" type="checkbox"></label></div><p class="mini-note">Keyboard navigation and screen-reader labels are included throughout the app.</p></div></div>
 <div id="installModal" class="modal" role="dialog" aria-modal="true" aria-labelledby="installTitle" aria-hidden="true"><div class="modal-card"><button type="button" class="smallbtn modal-close" data-close="installModal" aria-label="Close installation help">×</button><h2 id="installTitle">Install Ecostat English Lab</h2><p id="installInstructions">On iPhone/iPad: open the Share menu in Safari and choose <strong>Add to Home Screen</strong>. On desktop or Android, use your browser's Install option if the button does not appear automatically.</p></div></div>
 
-<script src="data.js?v=6.0.1"></script>
-<script src="app.js?v=6.0.1"></script>
+<script src="data.js?v=6.1.0"></script>
+<script src="app.js?v=6.1.0"></script>
 </body>
 </html>
