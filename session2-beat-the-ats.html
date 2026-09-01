@@ -6,7 +6,7 @@
 <title>Session 2 · Beat the ATS · Ecostat English Lab</title>
 <meta name="description" content="A collaborative Session 2 activity for Ecostat students: tailor a CV or résumé, pass an ATS scan, impress a human recruiter and defend every decision.">
 <meta name="theme-color" content="#08182f">
-<link rel="manifest" href="manifest.webmanifest?v=6.2.1">
+<link rel="manifest" href="manifest.webmanifest?v=6.2.2">
 <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
 <style>
 :root{--bg:#071526;--panel:#0d2138;--panel2:#102a46;--line:#24435d;--ink:#f4f8fb;--muted:#a9bac8;--teal:#55d6c2;--amber:#ffc66d;--red:#ff8b8f;--blue:#80bfff;--purple:#b9a6ff;--shadow:0 22px 60px rgba(0,0,0,.26);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color-scheme:dark}
@@ -56,13 +56,13 @@
 <section id="done" class="screen"><div class="wrap"><div class="panel complete"><div class="tick">✓</div><div class="eyebrow">Session 2 · Group activity complete</div><h2 id="doneTitle">Application challenge complete.</h2><p id="doneSummary" class="scenario">Your team has completed Beat the ATS.</p><p class="scenario">Be ready for one final question: <strong>Which single change made the biggest difference to both the ATS and the human recruiter, and why?</strong></p><div class="actions" style="justify-content:center"><a class="back" href="index.html#group-activities">Back to Group Activities</a></div></div></div></section>
 </main>
 
-<footer><div class="wrap footerin"><div>Session 2 · Beat the ATS · Ruleset ATS-S2-R1 · v6.2.1</div><div>designed and created by Mrs Lecomte, with the help of ChatGPT</div></div></footer>
+<footer><div class="wrap footerin"><div>Session 2 · Beat the ATS · Ruleset ATS-S2-R1 · v6.2.2</div><div>designed and created by Mrs Lecomte, with the help of ChatGPT</div></div></footer>
 <script>
 (() => {
 'use strict';
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 const screens=['intro','setup','game','results','prep','present','done'];
-const GAME_VERSION='6.2.1';
+const GAME_VERSION='6.2.2';
 const RULESET_ID='ATS-S2-R1';
 const OPTION_KEYS=Object.freeze(['A','B','C','D']);
 const CANDIDATE_KEYS=Object.freeze(['EQUADE','DSI','IRF','GRAF']);
@@ -80,7 +80,7 @@ GRAF:{id:'GRAF',name:'Inès Robert',initials:'IR',market:'United States',documen
 Object.values(candidates).forEach(c=>{Object.freeze(c.keywords);Object.freeze(c);});
 Object.freeze(candidates);
 
-const scoreOrder=Object.freeze([{A:10,B:7,C:1,D:4},{A:4,B:1,C:10,D:7},{A:7,B:10,C:4,D:1},{A:1,B:4,C:7,D:10},{A:10,B:4,C:1,D:7},{A:4,B:7,C:10,D:1},{A:1,B:4,C:7,D:10},{A:7,B:10,C:4,D:1},{A:4,B:7,C:10,D:1},{A:10,B:1,C:7,D:4}].map(Object.freeze));
+const scoreOrder=Object.freeze([{A:10,B:7,C:1,D:4},{A:4,B:1,C:10,D:7},{A:7,B:10,C:4,D:1},{A:1,B:7,C:4,D:10},{A:10,B:4,C:1,D:7},{A:4,B:7,C:10,D:1},{A:1,B:4,C:7,D:10},{A:7,B:10,C:4,D:1},{A:4,B:7,C:10,D:1},{A:10,B:1,C:7,D:4}].map(Object.freeze));
 const weights=Object.freeze([{ats:4,human:2,rel:3,evidence:1},{ats:3,human:3,rel:3,evidence:1},{ats:5,human:1,rel:3,evidence:1},{ats:5,human:4,rel:1,evidence:0},{ats:1,human:3,rel:1,evidence:5},{ats:1,human:3,rel:1,evidence:5},{ats:1,human:4,rel:4,evidence:1},{ats:2,human:4,rel:3,evidence:1},{ats:2,human:5,rel:1,evidence:2},{ats:6,human:1,rel:0,evidence:3}].map(Object.freeze));
 
 function roundData(c){
