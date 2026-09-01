@@ -1,15 +1,16 @@
 const CACHE_PREFIX = 'ecostat-english-';
-const CACHE = `${CACHE_PREFIX}v6.1.5`;
-const VERSION = '6.1.5';
+const CACHE = `${CACHE_PREFIX}v6.2.0`;
+const VERSION = '6.2.0';
 const CORE = [
   './',
   './index.html',
   './session1-linkedin-rescue-squad.html',
-  './styles.css?v=6.1.5',
-  './fixes.css?v=6.1.5',
-  './data.js?v=6.1.5',
-  './app.js?v=6.1.5',
-  './manifest.webmanifest?v=6.1.5',
+  './session2-beat-the-ats.html',
+  './styles.css?v=6.2.0',
+  './fixes.css?v=6.2.0',
+  './data.js?v=6.2.0',
+  './app.js?v=6.2.0',
+  './manifest.webmanifest?v=6.2.0',
   './icons/icon-192.png',
   './icons/icon-512.png',
   './icons/apple-touch-icon.png'
@@ -80,7 +81,7 @@ self.addEventListener('fetch', event => {
   }
 
   const file = url.pathname.slice(scope.pathname.length);
-  const mutable = /^(?:index\.html|session1-linkedin-rescue-squad\.html|data\.js|app\.js|styles\.css|fixes\.css|manifest\.webmanifest)$/.test(file);
+  const mutable = /^(?:index\.html|session1-linkedin-rescue-squad\.html|session2-beat-the-ats\.html|data\.js|app\.js|styles\.css|fixes\.css|manifest\.webmanifest)$/.test(file);
   event.respondWith(mutable ? networkFirst(request) : staleWhileRevalidate(request));
 });
 

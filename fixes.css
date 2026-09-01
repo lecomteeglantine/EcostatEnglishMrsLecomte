@@ -48,3 +48,7 @@ button:disabled{cursor:not-allowed;opacity:.78}
 .session-activity-card h4{font-size:1.55rem;margin:.15rem 0}
 .group-home-actions .jump{width:auto}
 @media(max-width:680px){.group-session{padding:16px}.group-session-head{align-items:flex-start;flex-direction:column}.group-session-count{align-self:flex-start}.group-home-actions .jump{width:100%}}
+
+/* v6.2.0 · Session 2 group activity */
+.group-session + .group-session{margin-top:22px}
+.session-activity-icon.ats-icon{width:64px;background:linear-gradient(135deg,#7a4d13,#d18a27);color:#fff;font-size:.88rem;letter-spacing:.08em}
