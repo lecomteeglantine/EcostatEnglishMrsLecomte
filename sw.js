@@ -1,11 +1,12 @@
 const CACHE_PREFIX = 'ecostat-english-';
-const CACHE = `${CACHE_PREFIX}v6.2.2`;
-const VERSION = '6.2.2';
+const CACHE = `${CACHE_PREFIX}v6.3.0`;
+const VERSION = '6.3.0';
 const CORE = [
   './',
   './index.html',
   './session1-linkedin-rescue-squad.html',
   './session2-beat-the-ats.html',
+  './session3-hiring-committee.html',
   './styles.css?v=6.2.2',
   './fixes.css?v=6.2.2',
   './data.js?v=6.2.2',
@@ -15,7 +16,6 @@ const CORE = [
   './icons/icon-512.png',
   './icons/apple-touch-icon.png'
 ];
-
 self.addEventListener('install', event => {
   event.waitUntil(
     caches.open(CACHE)
@@ -31,11 +31,9 @@ self.addEventListener('activate', event => {
       .then(() => self.clients.claim())
   );
 });
-
 async function fetchFresh(request) {
   return fetch(request, { cache: 'no-store' });
 }
-
 async function networkFirst(request, fallbackUrl = null) {
   try {
     const response = await fetchFresh(request);
@@ -54,7 +52,6 @@ async function networkFirst(request, fallbackUrl = null) {
     throw error;
   }
 }
-
 async function staleWhileRevalidate(request) {
   const cached = await caches.match(request, { ignoreSearch: true });
   const update = fetchFresh(request).then(async response => {
@@ -66,7 +63,6 @@ async function staleWhileRevalidate(request) {
   }).catch(() => null);
   return cached || (await update) || Response.error();
 }
-
 self.addEventListener('fetch', event => {
   const request = event.request;
   if (request.method !== 'GET') return;
@@ -79,12 +75,10 @@ self.addEventListener('fetch', event => {
     event.respondWith(networkFirst(request, './index.html'));
     return;
   }
-
   const file = url.pathname.slice(scope.pathname.length);
-  const mutable = /^(?:index\.html|session1-linkedin-rescue-squad\.html|session2-beat-the-ats\.html|data\.js|app\.js|styles\.css|fixes\.css|manifest\.webmanifest)$/.test(file);
+  const mutable = /^(?:index\.html|session1-linkedin-rescue-squad\.html|session2-beat-the-ats\.html|session3-hiring-committee\.html|data\.js|app\.js|styles\.css|fixes\.css|manifest\.webmanifest)$/.test(file);
   event.respondWith(mutable ? networkFirst(request) : staleWhileRevalidate(request));
 });
-
 self.addEventListener('message', event => {
   if (event.data === 'SKIP_WAITING') self.skipWaiting();
   if (event.data === 'VERSION' && event.source) event.source.postMessage({ type: 'SW_VERSION', version: VERSION });
